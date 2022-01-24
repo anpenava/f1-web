@@ -1,0 +1,23 @@
+-
+  type: link
+  url: https://www.facebook.com/Formula1/
+  icon: facebook-f:fa:fab
+  target: facebook
+
+-
+  type: link
+  url: https://twitter.com/F1?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+  icon: twitter:fa:fab
+  target: twitter
+
+-
+  type: link
+  url: https://www.instagram.com/f1/?hl=en
+  icon: instagram:fa:fab
+  target: instagram
+
+-
+  type: link
+  url: https://www.youtube.com/user/Formula1
+  icon: youtube:fa:fab
+  target: youtube

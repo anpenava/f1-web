@@ -1,0 +1,20 @@
+messages:
+  saved:
+    default: Your team has been saved. You now have {substitutions, plural, =1 { 1 substitution } other {# substitutions}} left in your Subs Bank for this raceweek.
+
+substitutions:
+  confirm-dialog:
+    message:
+      free: You are making {substitutions, plural, =1 { 1 substitution } other {# substitutions}} to your team, leaving you with a Subs Bank of {remaining, plural, =1 {1 substitution} other {# substitutions}} remaining this raceweek.
+      paid: You are making {substitutions, plural, =1 { 1 substitution } other {# substitutions}} to your team which will incur a penalty of {points} pts. You will have a Subs Bank of {remaining, plural, =1 {1 substitution} other {# substitutions}} remaining this raceweek.
+
+whats-next-dialog:
+  title: What’s Next?
+  message: Your team was created and joined to the Global, Constructor and Country leagues. Now, you can create a league for you and your friends.
+  button: OK
+
+tooltip:
+  average-budget: Average budget remaining per driver / constructor
+
+team-value:
+  tooltip: Total value change in current raceweek

@@ -1,0 +1,11 @@
+-
+  type: item
+  route: web.prizes
+  icon: trophy-alt:fa:fas
+  labelKey: menu.bottom-bar.prizes
+
+-
+  type: item
+  route: web.game-rules
+  icon: book:fa:fas
+  labelKey: menu.bottom-bar.game-rules

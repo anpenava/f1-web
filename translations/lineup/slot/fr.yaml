@@ -1,0 +1,6 @@
+header:
+  scores:
+    gameweek:
+      abbr: C/S
+      label: Semaine de course
+      tooltip: Points de semaine de course

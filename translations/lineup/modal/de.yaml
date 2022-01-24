@@ -1,0 +1,6 @@
+information:
+  subs-bank:
+    message: Mit der Subs Bank können Sie pro Teamwoche bis zur Sperrzeit des Teams bis zu {substitutions} Auswechslungen für Ihr Team vornehmen. Die ersten {freeSubstitutions} Auswechslungen proRennwoche sind kostenlos, wobei zusätzliche Auswechslungen eine Strafe von -{cost} Punkten pro Auswechslung nach sich ziehen. Jedes Mal, wenn Sie einen Teamwechsel speichern, wird Ihre Subs Bank um eins reduziert.
+
+  total-value:
+    message: Ihr Gesamtwert ist Ihr Teamwert plus Ihr verbleibendes Budget. Sie können Ihren Gesamtwert erhöhen, indem Sie mithilfe Ihrer Subs-Bank Treiber und Konstruktoren zu Ihrem Team hinzufügen und daraus entfernen.

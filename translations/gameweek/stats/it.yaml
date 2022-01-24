@@ -1,0 +1,9 @@
+attrs:
+  player_display_name: Driver
+  player_score: Punteggio
+  player_season_score: Punteggio della stagione
+  player_team_name: Squadra
+  player_team_abbreviation: Costruttore
+  team_name: Squadra
+  team_score: Punti
+  team_value: Valore totale

@@ -1,0 +1,5 @@
+empty:
+  game-period:
+    current: You can view other users’ teams after the current raceweek locks.
+    next: You can view other users’ teams after the raceweek locks.
+  league: You can view other users’ teams after the first raceweek locks.

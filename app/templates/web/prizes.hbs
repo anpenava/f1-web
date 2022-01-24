@@ -1,0 +1,170 @@
+<ScrollViewAnimated @transitions={{this.scrollTransitions}} as | scrollView |>
+  <div class="web web__prizes web__stick-top">
+    <BoldHeading @tag="h1" @title={{t "web.prizes.title"}} @modifier="web main" />
+  </div>
+
+  <div class="web web__tabs-panel">
+    <Container @modifier="md-boxed">
+      <Row>
+        <Column @modifier="12">
+          <TabBar @value={{this.tabSelected}} @fixed={{true}} @style="fit" @modifier="slim prizes" as |tab|>
+            <tab.item @value="overall-leaderboard" @label="Overall Leaderboard" />
+            <tab.item @value="weekly-prizes" @label="Weekly Prizes" />
+            <tab.item @value="mini-leagues" @label="Mini-Leagues" />
+            <tab.item @value="plus-many-more" @label="Plus Many More" />
+          </TabBar>
+        </Column>
+      </Row>
+    </Container>
+  </div>
+
+  <TabsContainer @value={{this.tabSelected}} @scrollView={{scrollView}} as |tab|>
+    <tab.item @value="overall-leaderboard">
+      <div class="web web__prizes-panel">
+        <Container @modifier="md-boxed">
+          <Row class="web__prizes-panel__row">
+            <Column @modifier="12 md-5 offset-md-1" class={{this.classAlignColumn}}>
+              <BoldHeading @tag="h2" @title={{t "web.prizes.tab-overall.first.heading"}} @modifier="web dark" />
+
+              <p class="web__default-text web__default-text--md">
+                {{t "web.prizes.tab-overall.first.text"}}
+              </p>
+
+              <p class="web__default-text web__default-text--sm">
+                {{t "web.prizes.tab-overall.first.description" htmlSafe=true}}
+              </p>
+
+              <ContainedLink @label={{t "web.prizes.button.play-now"}} @route="login" @theme="accent" @modifier="flat fixed" />
+            </Column>
+
+            <Column @modifier="md-6">
+              <img class="web__prizes-panel__img" src="/images/web/prizes/prize-first.png">
+            </Column>
+          </Row>
+
+          <Row class="web__prizes-panel__row">
+            <Column @modifier="md-6 {{this.classColOrder2}}">
+              <img class="web__prizes-panel__img" src="/images/web/prizes/prize-second.png">
+            </Column>
+
+            <Column @modifier="12 md-5 offset-md-1 {{this.classColOrder1}}" class={{this.classAlignColumn}}>
+              <BoldHeading @tag="h2" @title={{t "web.prizes.tab-overall.second.heading"}} @modifier="web dark" />
+
+              <p class="web__default-text web__default-text--md">
+                {{t "web.prizes.tab-overall.second.text"}}
+              </p>
+
+              <p class="web__default-text web__default-text--sm">
+                {{t "web.prizes.tab-overall.second.description" htmlSafe=true}}
+              </p>
+
+              <ContainedLink @label={{t "web.prizes.button.play-now"}} @route="login" @theme="accent" @modifier="flat fixed" />
+            </Column>
+          </Row>
+
+          <Row class="web__prizes-panel__row">
+            <Column @modifier="12 md-5 offset-md-1" class={{this.classAlignColumn}}>
+              <BoldHeading @tag="h2" @title={{t "web.prizes.tab-overall.third.heading"}} @modifier="web dark" />
+
+              <p class="web__default-text web__default-text--md">
+                {{t "web.prizes.tab-overall.third.text"}}
+              </p>
+
+              <p class="web__default-text web__default-text--sm">
+                {{t "web.prizes.tab-overall.third.description" htmlSafe=true}}
+              </p>
+
+              <ContainedLink @label={{t "web.prizes.button.play-now"}} @route="login" @theme="accent" @modifier="flat fixed" />
+            </Column>
+
+            <Column @modifier="md-6">
+              <img class="web__prizes-panel__img" src="/images/web/prizes/prize-third.png">
+            </Column>
+          </Row>
+        </Container>
+      </div>
+    </tab.item>
+
+    <tab.item @value="weekly-prizes">
+      <div class="web web__prizes-panel">
+        <Container @modifier="md-boxed">
+          <Row class="web__prizes-panel__row">
+            <Column @modifier="12 md-5 offset-md-1" class={{this.classAlignColumn}}>
+              <BoldHeading @tag="h2" @title={{t "web.prizes.tab-weekly.first.heading"}} @modifier="web dark" />
+
+              <p class="web__default-text web__default-text--md">
+                {{t "web.prizes.tab-weekly.first.text"}}
+              </p>
+
+              <p class="web__default-text web__default-text--sm">
+                {{t "web.prizes.tab-weekly.first.description" htmlSafe=true}}
+              </p>
+
+              <ContainedLink @label={{t "web.prizes.button.play-now"}} @route="login" @theme="accent" @modifier="flat fixed" />
+            </Column>
+
+            <Column @modifier="md-6" class="text--center">
+              <img class="web__prizes-panel__img__shirt" src="/images/web/prizes/tshirt.jpg">
+            </Column>
+          </Row>
+        </Container>
+      </div>
+    </tab.item>
+
+    <tab.item @value="mini-leagues">
+      <div class="web web__prizes-panel">
+        <Container @modifier="md-boxed">
+          <Row class="web__prizes-panel__row">
+            <Column @modifier="12 md-5 offset-md-1" class={{this.classAlignColumn}}>
+              <BoldHeading @tag="h2" @title={{t "web.prizes.tab-mini-leagues.first.heading"}} @modifier="web dark" />
+
+              <p class="web__default-text web__default-text--md">
+                {{t "web.prizes.tab-mini-leagues.first.text"}}
+              </p><br>
+
+              <ContainedLink @label={{t "web.prizes.button.play-now"}} @route="login" @theme="accent" @modifier="flat fixed" />
+            </Column>
+
+            <Column @modifier="md-6" class="text--center">
+              <img class="web__prizes-panel__img__cap" src="/images/web/prizes/cap.png">
+            </Column>
+          </Row>
+        </Container>
+      </div>
+    </tab.item>
+
+    <tab.item @value="plus-many-more">
+      <div class="web web__prizes-panel">
+        <Container @modifier="md-boxed">
+          <Row class="web__prizes-panel__row">
+            <Column @modifier="12 md-5 offset-md-1" class={{this.classAlignColumn}}>
+              <BoldHeading @tag="h2" @title={{t "web.prizes.tab-more.first.heading"}} @modifier="web dark" />
+
+              <p class="web__default-text web__default-text--md">
+                {{t "web.prizes.tab-more.first.text"}}
+              </p><br>
+
+              <ContainedLink @label={{t "web.prizes.button.view-lobby"}} @route="web.leagues" @theme="accent" @modifier="flat fixed" />
+            </Column>
+
+            <Column @modifier="md-6">
+              <img class="web__prizes-panel__img" src="/images/web/prizes/prize-trip.jpg">
+            </Column>
+          </Row>
+        </Container>
+      </div>
+    </tab.item>
+  </TabsContainer>
+
+  <div class="web web__description-panel">
+    <Container @modifier="md-boxed">
+      <Row>
+        <Column @modifier="12">
+          <p class="web__default-text text--left">{{t "web.prizes.note"}}</p><br>
+        </Column>
+      </Row>
+    </Container>
+  </div>
+
+  <WebFooter />
+</ScrollViewAnimated>

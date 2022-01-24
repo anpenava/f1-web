@@ -1,0 +1,6 @@
+header:
+  scores:
+    gameweek:
+      abbr: C
+      label: Carrera
+      tooltip: Puntos del fin de semana

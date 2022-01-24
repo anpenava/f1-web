@@ -1,0 +1,11 @@
+column:
+  mega-booster: Mega Driver
+  mega-played: Mega Drivers Played
+  turbo-booster: Turbo Driver
+  boosted:
+    mega:
+      plays: Mega Driver Plays
+      percentage: "% of Mega Driver Plays"
+    turbo:
+      plays: Turbo Driver Plays
+      percentage: "% of Turbo Driver Plays"

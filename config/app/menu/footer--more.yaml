@@ -1,0 +1,25 @@
+-
+  type: link
+  url: https://account.formula1.com/#/en/privacy-policy
+  target: formula1
+  labelKey: menu.footer.privacy-policy
+
+-
+  type: route
+  route: web.terms-and-conditions
+  labelKey: menu.footer.terms-and-conditions
+
+-
+  type: route
+  route: web.team-marketing
+  labelKey: menu.footer.team-marketing
+
+-
+  type: link
+  url: https://www.formula1.com/
+  target: playon
+  labelKey: menu.footer.external-fantasy
+
+- type: link
+  id: cookie_Preference
+  labelKey: menu.footer.manage-cookies  

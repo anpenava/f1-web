@@ -1,0 +1,25 @@
+-
+  type: route
+  route: web.fantasy
+  labelKey: menu.footer.fantasy
+
+-
+  type: route
+  route: web.leagues
+  labelKey: menu.footer.leagues
+
+-
+  type: route
+  route: web.subs-bank
+  labelKey: menu.footer.subs-bank
+
+-
+  type: route
+  route: web.dynamic-pricing
+  labelKey: menu.footer.dynamic-pricing
+
+-
+  type: route
+  route: web.daily-fantasy
+  target: playon
+  labelKey: menu.footer.daily-fantasy

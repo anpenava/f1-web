@@ -1,0 +1,109 @@
+qualifying:
+  title: Qualifying 
+  events:
+    1:
+      name: Q1 Ende
+    2:
+      name: Q2 Ende
+    3:
+      name: Q3 Ende
+    4:
+      name: Qualifiziert vor Teamkollege (nur Fahrer)
+    5:
+      name: Nicht qualifiziert (nur Fahrer)
+    6:
+      name: Disqualifikation vom Qualifying (nur Fahrer)
+qualifying-position-bonuses:
+  title: Qualifying Positionsboni
+  events:
+    1:
+      name: Pole Position
+    2:
+      name: 2. Platz
+    3:
+      name: 3. Platz
+    4:
+      name: 4. Platz
+    5:
+      name: 5. Platz
+    6:
+      name: 6. Platz
+    7:
+      name: 7. Platz
+    8:
+      name: 8. Platz
+    9:
+      name: 9. Platz
+    10:
+      name: 10. Platz
+race:
+  title: Rennen
+  events:
+    1:
+      name: Rennen beendet
+    2:
+      name: Beendetes Rennen, gewonnene Position (pro gewonnenem Platz, max. +10 Punkte)
+    3:
+      name: Vor dem Teamkollegen fertig (nur Fahrer)
+    4:
+      name: Schnellste Runde (nur Fahrer)
+    5:
+      name: Startete das Rennen in den Top 10, beendete das Rennen, verlor aber die Position (pro verlorenem Platz max. -10 Punkte)
+    6:
+      name: Rennen außerhalb der Top 10 gestartet, Rennen beendet, aber Position verloren (pro verlorenem Platz max. -5 Punkte)
+    7:
+      name: Nicht klassifiziert (nur Fahrer)
+    8:
+      name: Disqualifikation vom Rennen (nur Fahrer)
+  note:
+    "
+      <p>
+        <strong>* Gewonnene Positionen: </strong> Gewonnene Positionen basieren auf der Position, die ein Fahrer in der Startaufstellung startet
+      </p>
+
+      <p>
+        <strong>** Klassifikation: </strong>
+        Fahrzeuge, die 90% der vom Sieger zurückgelegten Runden zurückgelegt haben (auf die nahezu vollständige Anzahl der Runden abgerundet), gelten als beendet. Autos, die weniger als 90% der zurückgelegten Runden vom Gewinner zurückgelegt haben (auf die nächste ganze Anzahl von Runden abgerundet), werden nicht klassifiziert. Klassifikationen basieren auf FIA-Entscheidungen
+      </p>
+    "
+finishing-position-bonuses:
+  title: Finishing Positionsboni
+  events:
+    1:
+      name: 1. Platz
+    2:
+      name: 2. Platz
+    3:
+      name: 3. Platz
+    4:
+      name: 4. Platz
+    5:
+      name: 5. Platz
+    6:
+      name: 6. Platz
+    7:
+      name: 7. Platz
+    8:
+      name: 8. Platz
+    9:
+      name: 9. Platz
+    10:
+      name: 10. Platz
+streaks:
+  title: Gewinnserie
+  events:
+    1:
+      name: Fahrerqualifikation - Der Fahrer qualifiziert sich für 5 Rennen in Folge in den Top 10
+    2:
+      name: Fahrerrennen - Der Fahrer beendet das Rennen in den Top 10 für 5 Rennen in Folge
+    3:
+      name: Konstrukteur-Qualifikation - Beide Fahrer qualifizieren sich für drei Rennen in Folge in den Top 10
+    4:
+      name: Konstrukteur-Rennen - beide Fahrer beenden das Rennen in den Top 10 für drei Rennen in Folge
+  note:
+    "
+      <p>
+        * Wenn ein Fahrer oder Konstrukteur einen Streifen erreicht, wird dieser Streifen zurückgesetzt und muss erneut aufgebaut werden.
+        Zum Beispiel: Ein Fahrer erreicht fünf Top Ten hintereinander. Er erhält eine Serie, muss aber weitere fünf Top Ten in Folge erreichen, um zum zweiten Mal Streifenpunkte zu erhalten.
+      <p>
+    "

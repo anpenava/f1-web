@@ -1,0 +1,204 @@
+.web {
+	&__header {
+	  &--logo {
+	    @include logo-color(#fff, ".f1, .trademark, .fantasy");
+	  }
+
+    &--bg {
+      background-position: center center;
+
+      &:before {
+        background-image: linear-gradient(to bottom, #000, rgba(0,0,0,.9));
+      }
+    }
+	}
+
+  &__daily-fantasy {
+    .web__fantasy--line {
+      transform: scaleX(-1);
+    }
+  }
+
+  &__dynamic-pricing {
+    .web__gray-text {
+      color: #84848D;
+    }
+  }
+
+	&__stripped-panel,
+	&__next-generation-panel,
+	&__public-leagues-panel {
+		background-blend-mode: luminosity;
+	}
+
+	&__public-leagues-panel {
+    background-image: url("/images/web/stripped.png"), gradient(web, panel-inversed);
+
+    .button {
+      @include button-contained(#fff, color(app, secondary));
+    }
+	}
+
+  &__stripped-panel {
+  	&--box__card {
+      &__c-highlighted {
+        color: color(app, primary);
+      }
+
+      &__label {
+        color: #FFA700;
+        font-family: $font-family--web-heading;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: $font-weight-medium;
+      }
+
+      > p {
+        color: color(grey, 700);
+      }
+    }
+  }
+
+  &__wildcard-panel {
+    .web__default-text {
+      color: color(grey, 700);
+    }
+
+    .web__blue-text {
+      color: #4326E5;
+      margin: -20px 0 40px;
+    }
+  }
+
+  &__live-panel {
+    > p {
+    	margin: 30px 0;
+    }
+  }
+
+	&__gradient-daily-panel {
+		background-color: #fff;
+	}
+
+	.button--contained {
+		text-transform: uppercase;
+
+    &:not(.button--head) {
+      padding: 9px 16px;;
+    }
+	}
+
+  .button--primary {
+    @include button-contained(#fff, color(app, secondary));
+  }
+
+  &__wrapper {
+  	.heading {
+      font-family: $font-family--web-heading;
+      font-weight: $font-weight-bold;
+  	}
+  }
+
+  &__page {
+  	.web__gray-text {
+      color: #5B5B61;
+  	}
+
+    li {
+      &.web__bullet-list {
+        color: #5B5B61;
+
+        &:before {
+          color: color(app, secondary);
+        }
+      }
+    }
+
+    .card {
+      &--overlined {
+        .description-list__item {
+          &--right {
+            font-family: $font-family--web-heading;
+            font-size: 12px;
+          }
+        }
+      }         
+    }
+  }
+
+  &__date-box {
+    font-family: $font-family--web-heading;
+
+    &--day {
+      font-weight: $font-weight-bold;
+  	}
+  }
+}
+
+.filters__filter--teams {
+  .team-image {
+    height: auto;
+  }
+}
+
+.card {
+  &__note {
+    &__sprint {
+      &__row {
+        display: flex;
+        flex-direction: row;
+        margin-left: -50px;
+        padding: 35px 10px 0;
+        margin-right: -50px;
+        border-top: 15px solid color(grey, 100);
+      }
+
+      &__col {
+        padding: 0 20px;
+        text-align: center;
+        width: 50%;
+
+        &:first-child {
+          border-right: 3px solid #dbdbdd;
+        }
+
+        h2 {
+          font-family: $font-family--web-heading;
+          font-size: 14px;
+        }
+
+        img {
+          width: 100%;
+        }
+      } 
+
+      @include media-max($breakpoint-sm) {
+        &__row {
+          flex-direction: column;
+        }
+
+        &__col {
+          padding: 0;
+          width: 100%;
+
+          &:first-child {
+            border-right: 0;
+            margin-bottom: 35px;
+          }            
+        }
+      }
+    }
+  }          
+}
+
+.table__details {
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  margin-top: 30px;
+
+  .icon {
+    color: color(app, success);
+  }
+}

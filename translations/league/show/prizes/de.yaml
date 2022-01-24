@@ -1,0 +1,13 @@
+global:
+  first:
+    heading: 1. Preis
+    text: Gewinnt 2x Paddock Club Pässe für einen Grand Prix 2021
+    description: "* Es gelten Einschränkungen, die nur für die folgenden Rennen gelten: China, Baku, Kanada, Österreich, Ungarn, Belgien, Russland, Japan, USA."
+  second:
+    heading: 2. Preis
+    text: 2x Tribünenkarten und Paddock-Pässe für einen Grand Prix 2021
+    description: "** Ausgenommen sind Australien, Vietnam, Spanien, Monaco, Italien, Singapur und Brasilien."
+  third:
+    heading: 3. Preis
+    text: F1TV Pro oder Zugang je nach Gebiet
+    description: "*** In Regionen, in denen F1® TV Pro nicht verfügbar ist, wird dies durch ein 12-monatiges Abonnement für F1® TV Zugang ersetzt."

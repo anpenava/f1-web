@@ -1,0 +1,9 @@
+attrs:
+  player_display_name: Piloto
+  player_score: Puntuación
+  player_season_score: Puntuación de temporada
+  player_team_name: Equipo
+  player_team_abbreviation: Constructor
+  team_name: Equipo
+  team_score: Puntos
+  team_value: Valor total

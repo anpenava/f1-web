@@ -1,0 +1,12 @@
+step:
+  mega-player:
+    description: El {boosterName} permite a un piloto puntuar {multiplier}x puntos. Puedes usar dos {boosterName} por temporada.
+
+  scoring:
+    description: Cada piloto y cada constructor puntúa en función de varios factores como su posición en clasificación y en carrera, batir a su compañero de equipo y otros, detallados en la página de Cómo puntuar.
+
+  team:
+    description: Usa tus $100m para seleccionar 5 pilotos y 1 constructor.
+
+  turbo-player:
+    description: Selecciona un piloto para que sea tu {boosterName} y que este puntue {multiplier}x puntos.

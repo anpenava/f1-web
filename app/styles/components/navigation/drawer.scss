@@ -1,0 +1,122 @@
+.navigation-drawer__menu--theme-formula-1 {
+  background-color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  .navigation-drawer__menu__item {
+    &--f1-tv {
+      .navigation-drawer__menu__item {
+        &__icon {
+          opacity: 1.0;
+          transition: animation-enter(opacity, 0.2s);
+        }
+
+        &__logo {
+          @include logo-theme(colorful);
+
+          margin-left: 15px;
+          height: 11px;
+          will-change: height;
+          transition: animation-enter(height, 0.2s), animation-enter(margin-left, 0.2s);
+        }
+      }
+    }
+
+    &__action {
+      color: color(app, secondary);
+    }
+
+    &__label {
+      font-size: 12px;
+      font-family: $font-family;
+      font-weight: $font-weight-medium;
+      text-transform: uppercase;
+    }
+
+    &__formulas {
+      display: flex;
+      justify-content: center;
+      line-height: 25px;
+
+      &__link {
+        font-size: 14px;
+        font-family: $font-family--heading;
+        font-weight: $font-weight-bold;
+
+        & + .navigation-drawer__menu__item__formulas__link {
+          margin-left: 46px;
+        }
+
+        & > a {
+          display: block;
+          color: #949498;
+          border-radius: 4px;
+
+          & > sup {
+            font-size: 12px;
+            font-family: $font-family;
+            top: -3px;
+
+            &.tm {
+              font-size: 7px;
+              top: -6px;
+            }
+          }
+        }
+      }
+    }
+
+    &--line-divider {
+      background-color: #D8D8D8;
+    }
+
+    @include media-max($breakpoint-md) {
+      &__formulas {
+        justify-content: flex-start;
+        padding-left: 15px;
+      }
+    }
+  }
+}
+
+.navigation-drawer--shrunken {
+  .navigation-drawer__menu__item {
+    &--f1-tv {
+      &:hover {
+        background-color: transparent;
+      }
+
+      .navigation-drawer__menu__item {
+        &__icon {
+          opacity: 0.0;
+        }
+
+        &__logo {
+          margin-left: -38px;
+          height: 8px;
+        }
+      }
+    }
+
+    &__formulas {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 5px;
+
+      &__link {
+        & > a {
+          padding: 10px 6px;
+
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.12);
+          }
+        }
+
+        & + .navigation-drawer__menu__item__formulas__link {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+processing:
+  weekly: Las tablas de posiciones se actualizarán después de que termine la semana de competición.
+empty:
+  default: La semana de competición seleccionada no ha comenzado todavía. Las tablas de posiciones de cada semana de competición se actualizan al final de cada semana de competición. Puedes hacer cambios a tus equipos antes de que comience una semana de competición.
+  live: La semana de competición seleccionada ya ha comenzado. Las tablas de posiciones de cada semana de competición se actualizan al final de cada semana de competición.
+  my-rankings: No han ingresado los equipos de esta semana de competición.
+  verified-rankings: No hay participantes verificados para esta semana de competición.

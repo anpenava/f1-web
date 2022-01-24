@@ -1,0 +1,40 @@
+- type: route
+  route: web.subs-bank
+  labelKey: menu.drawer.subs-bank
+  icon: treasure-chest:fa:far
+
+- type: route
+  route: web.dynamic-pricing
+  labelKey: menu.drawer.dynamic-pricing
+  icon: chart-line:fa:far
+
+- type: route
+  route: web.game-rules
+  labelKey: menu.drawer.game-rules
+  icon: book-alt:fa:far
+
+- type: route
+  route: web.points-scoring
+  labelKey: menu.drawer.points-scoring
+  icon: chart-bar:fa:far
+
+- type: route
+  route: web.prizes
+  labelKey: menu.drawer.prizes
+  icon: trophy:fa:fas
+
+- type: route
+  route: web.faq
+  labelKey: menu.drawer.faq
+  icon: question-circle:fa:far
+
+- type: route
+  route: web.what-is-new
+  labelKey: menu.drawer.what-is-new
+  icon: star-exclamation:fa:far
+
+- type: link
+  url: https://www.formula1.com/
+  target: formula-1
+  labelText: Formula1.com
+  icon: browser:fa:far

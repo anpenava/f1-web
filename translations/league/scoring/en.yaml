@@ -1,0 +1,179 @@
+qualifying:
+  title: Qualifying
+  events:
+    1:
+      name: Q1 Finish
+    2:
+      name: Q2 Finish
+    3:
+      name: Q3 Finish
+    4:
+      name: Qualified ahead of team mate (driver only)
+    5:
+      name: Did not qualify
+    6:
+      name: Disqualification from qualifying
+qualifying-position-bonuses:
+  title: Qualifying Position Bonuses
+  events:
+    1:
+      name: Pole position
+    2:
+      name: 2nd place
+    3:
+      name: 3rd place
+    4:
+      name: 4th place
+    5:
+      name: 5th place
+    6:
+      name: 6th place
+    7:
+      name: 7th place
+    8:
+      name: 8th place
+    9:
+      name: 9th place
+    10:
+      name: 10th place
+race:
+  title: Race
+  events:
+    1:
+      name: Finished Race
+    2:
+      name: Per position gained (max. +10 pts)
+    3:
+      name: Finished ahead of team mate (driver only)
+    4:
+      name: Fastest lap (driver only)
+    5:
+      name: Per position lost (max. -10 pts)
+    6:
+      name: Not classified
+    7:
+      name: Disqualification from race
+  note:
+    "
+      <p>
+        <strong>* Race Positions Gained:</strong> Race positions gained are relative to Qualifying position or Sprint finishing position where applicable.
+      </p>
+
+      <p>
+        <strong>** Classification: </strong>
+        Cars that have covered 90% of the number of laps covered by the winner (rounded down to the nears whole number of laps) will be deemed to have finished the race. Cars that have covered less than 90% of the number of laps covered by the winner (rounded down to the nearest whole number of laps), will not be classified. Classifications are based on FIA decisions
+      </p>
+    "
+finishing-position-bonuses:
+  title: Race Position Bonuses
+  events:
+    1:
+      name: 1st Place
+    2:
+      name: 2nd place
+    3:
+      name: 3rd place
+    4:
+      name: 4th place
+    5:
+      name: 5th place
+    6:
+      name: 6th place
+    7:
+      name: 7th place
+    8:
+      name: 8th place
+    9:
+      name: 9th place
+    10:
+      name: 10th place
+streaks:
+  title: Streaks
+  events:
+    1:
+      name: Driver Qualifying - driver qualifies in Top 10 for 5 races in a row
+    2:
+      name: Driver Race - driver finishes race in Top 10 for 5 races in a row
+    3:
+      name: Constructor Qualifying - both drivers qualify in Top 10 for 3 races in a row
+    4:
+      name: Constructor Race - both drivers finish race in Top 10 for 3 races in a row
+  note:
+    "
+      <p>
+        * When a driver or constructor achieves a streak, that streak will reset and must be built up again. For example: A driver achieves five top tens in a row and will be awarded a streak, but must achieve another five top tens in a row to get streak points for a second time.
+      <p>
+
+      <p>
+        ** Sprint is excluded from Streaks calculations.
+      </p>      
+    "
+sprint-qualifying-points-structure:
+  title: Sprint
+  events:
+    1:
+      name: Finished Sprint
+    2:
+      name: Per Position Gained (max. +5 pts)
+    3:
+      name: Finished ahead of team-mate (driver only)
+    4:
+      name: Fastest lap (driver only)
+    5:
+      name: Per Position Lost (max. -5 pts)
+    6:
+      name: Not classified
+    7:
+      name: Disqualification from Sprint
+  note:
+    "
+      <p>
+        <strong>* Sprint Positions Gained:</strong> Sprint positions gained are relative to Qualifying position.
+      </p>
+
+      <p>
+        ** Sprint is excluded from Streaks calculations.
+      </p>      
+    "
+sprint-qualifying-position-bonuses:
+  title: Sprint Position Bonuses
+  events:
+    1:
+      name: 1st Place
+    2:
+      name: 2nd place
+    3:
+      name: 3rd place
+    4:
+      name: 4th place
+    5:
+      name: 5th place
+    6:
+      name: 6th place
+    7:
+      name: 7th place
+    8:
+      name: 8th place
+    9:
+      name: 9th place
+    10:
+      name: 10th place
+  note:
+    "      
+      <div class=''card__note__sprint__row''>
+        <div class=''card__note__sprint__col''>
+          <h2>Normal weekend</h2>
+          <img src=''/images/web/points-scoring/normal-weekend.png'' />
+        </div>
+
+        <div class=''card__note__sprint__col''>
+          <h2>Sprint weekend</h2>
+          <img src=''/images/web/points-scoring/sprint-weekend.png'' />
+        </div>      
+      </div>
+
+      <div class=''table__details''>
+        <span class=''icon fas fa-check-circle icon--fas icon--font''></span>
+        = Fantasy Points Scoring
+      </div>
+    "

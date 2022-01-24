@@ -1,0 +1,116 @@
+.navigation {
+  &__top-app-bar {
+    min-height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+
+    @include media-max($breakpoint-md) {
+      display: none;
+    }
+
+    &__logo {
+      @include logo-theme(colorful);
+      width: 72px;
+    }
+
+    &__left,
+    &__right {
+      display: flex;
+    }
+
+    &__left {
+      .button--text {
+        font-weight: $font-weight-bold;
+        font-family: $font-family--heading;
+        padding: 10px 12px;
+
+        @include button-text(#949498, #fff);
+
+        .button__label {
+          border: none;
+        }
+
+        &:hover {
+          .button__label {
+            color: #000;
+          }
+	      }
+    	}
+    }
+
+    &__right {
+      font-weight: $font-weight-medium;
+      margin-left: auto;
+
+      .button--text {
+        @include button-text(color(app, secondary), #fff);
+        border: none;
+
+        &:hover {
+          color: #000;
+        }
+
+        &:last-child {
+          &::before {
+            left: 0
+          }
+
+          &::after {
+            right: 0
+          }
+
+          &::before,
+          &::after {
+            content: "";
+            height: 25px;
+            width: 1px;
+            background: #d0d0d2;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+      }
+    }
+
+    &__link {
+      display: flex;
+      padding: 10px 20px;
+
+      &:hover:not(:last-child) {
+	      .button__label {
+          border-color: color(app, primary);
+        }
+	    }
+
+      .button__label {
+        border-bottom: 2px solid #fff;
+        font-size: 12px;
+        font-weight: $font-weight-medium;
+
+        & > sup {
+          font-size: 12px;
+          font-family: $font-family;
+          top: -1px;
+
+          &.tm {
+            font-size: 7px;
+            top: -4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.playon-application.\35 00-route,
+.playon-application.\34 04-route {
+  .navigation__top-app-bar {
+    display: none;
+  }
+}

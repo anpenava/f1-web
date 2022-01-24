@@ -1,0 +1,11 @@
+promotion-f1_start_season_invite_promo:
+  heading: Invita a tus amigos
+  entered:
+    call-to-action: Hecho
+    message: "
+      Porque has creado la liga {leagueName} y has invitado a tus amigos para unirse a tu liga,
+      has ganado {entries} participaciones para el sorteo de un videojuego F1 2021 y de una bisera de Mercedes firmada.
+      Si alguna de tus participaciones resulta ser la ganadora, la F1 se pondrá en contacto contigo en las próximas semanas.
+      Suerte y disfruta de la temporada que se avecina en la F1 Fantasy.
+    "
+    title: Estás dentro

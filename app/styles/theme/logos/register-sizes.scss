@@ -1,0 +1,74 @@
+@include logo-size(app-bar, ( height: 14px ));
+
+@include logo-size(navigation-drawer, (
+  height: 18px,
+  will-change: height,
+  transition: animation-enter(height, 0.2s)
+), (
+  ".logo": (
+    will-change: transform,
+    transition: animation-enter(transform, 0.2s)
+  ),
+
+  ".letters": (
+    will-change: transform,
+    transition: animation-enter(transform, 0.2s)
+  )
+));
+
+@include logo-size(navigation-drawer-shrunken, (
+  height: 21px,
+  transition: animation-exit-temporary(height, 0.2s)
+), (
+  ".logo": (
+    transform: scale(0.46) translate(30px, 0),
+    transition: animation-exit-temporary(transform, 0.2s)
+  ),
+
+  ".letters": (
+    transform: scale(0.41) translate(-168px, 62px),
+    transition: animation-exit-temporary(transform, 0.2s)
+  )
+));
+
+@include logo-size(branded-modal, (
+  height: 18px
+), (
+  width: auto,
+  height: 100%
+));
+
+@include logo-size(branded-modal-aside, (
+  height: 18px
+), (
+  width: auto,
+  height: 100%
+));
+
+@include logo-size(branded-dialog, (
+  width: 66px
+), (
+  width: 100%,
+  height: auto
+));
+
+@include logo-size(branded-snackbar, (
+  width: 46px
+), (
+  width: 100%
+));
+
+@include logo-size(maintenance, (
+  width: 100%
+), (
+  width: 100%
+));
+
+@include logo-size(release-countdown, ( height: 36px ));
+
+@include logo-size(app-loading, (
+  width: 300px
+), (
+  width: 100%,
+  height: auto
+));

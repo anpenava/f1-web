@@ -1,0 +1,34 @@
+.app-bar--top.app-bar--theme-f1 {
+  .app-bar {
+    &__brand {
+      height: 18px;
+    }
+
+    &__item {
+      font-family: $font-family--heading;
+
+      .button__label {
+        font-size: 13px;
+      }
+
+      & > .button {
+        &.button--text {
+          .button {
+            &__inner {
+              border-bottom-right-radius: 15px;
+              border-width: 1px;
+              border-right: 1px solid transparent;
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.app-bar--transparent {
+    @include media-min($breakpoint-md) {
+      top: 50px;
+    }
+  }
+}

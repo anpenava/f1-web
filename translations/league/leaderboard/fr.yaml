@@ -1,0 +1,7 @@
+processing:
+  weekly: Les classements seront mis à jour une fois la semaine de course finie.
+empty:
+  default: La semaine de course sélectionnée n''a pas encore commencé. Les classements pour chaque semaine de course sont mis à jour à la fin de chaque semaine de course. Vous pouvez réaliser des changements dans vos équipes avant le début de chaque semaine de course.
+  live: La semaine de course sélectionnée a déjà commencé. Les classements pour chaque semaine de course sont mis à jour à la fin de chaque semaine de course.
+  my-rankings: Vous n''avez pas inscrit d''équipe pour cette semaine de course.
+  verified-rankings: Il n''y a pas d''inscrits vérifiés pour cette semaine de course.

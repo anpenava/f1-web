@@ -1,0 +1,11 @@
+promotion-f1_start_season_invite_promo:
+  heading: Invite Friends
+  entered:
+    call-to-action: Done
+    message: "
+      Because you created {leagueName} and invited your friends to join,
+      you have won {entries} entries into the prize draw for F1 2021 and a signed Mercedes Cap.
+      If one of your entries is the winner, F1 will notify you over the coming weeks.
+      Enjoy the F1 Fantasy season ahead.
+    "
+    title: You Are In

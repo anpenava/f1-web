@@ -1,0 +1,20 @@
+messages:
+  saved:
+    default: Ihr Team wurde gerettet. Sie haben jetzt {substitutions, plural, =1 { 1 Auswechslung } other {# Auswechslungen}} für diese Rennwoche in Ihrer Subs Bank übrig.
+
+substitutions:
+  confirm-dialog:
+    message:
+      free: Sie nehmen Ihrem Team {substitutions, plural, =1 { 1 Auswechslung} other {# Auswechslungen}} vor, so dass Ihnen in dieser Spielwoche noch eine Subs Bank mit {remaining, plural, =1 { 1 Auswechslung} other {# Auswechslungen}} zur Verfügung steht.
+      paid: You are making {substitutions, plural, =1 { 1 substitution } other {# substitutions}} to your team which will incur a penalty of {points} pts. You have a Subs Bank of {remaining, plural, =1 {1 substitution} other {# substitutions}} remaining this raceweek.
+
+whats-next-dialog:
+  title: Was kommt als nächstes?
+  message: Ihr Team wurde erstellt und ist Mitglied der Ligen Global, Konstrukteur und Land. Jetzt können Sie eine Liga für sich und Ihre Freunde erstellen.
+  button: OK
+
+tooltip:
+  average-budget: Durchschnittliches verbleibendes Budget pro Fahrer/Konstrukteur
+
+team-value:
+  tooltip: Gesamtwertänderung in der aktuellen Rennwoche

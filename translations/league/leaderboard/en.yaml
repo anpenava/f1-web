@@ -1,0 +1,7 @@
+processing:
+  weekly: Leaderboards will update after the raceweek finishes.
+empty:
+  default: The selected Raceweek has not started yet. Leaderboards for each Raceweek are updated at the end of each Raceweek. You can make changes to your teams before each Raceweek starts.
+  live: The selected Raceweek has already started. The Leaderboards for each Raceweek are updated at the end of each Raceweek.
+  my-rankings: You have not entered teams for this raceweek.
+  verified-rankings: There are no verified entrants for this Raceweek.

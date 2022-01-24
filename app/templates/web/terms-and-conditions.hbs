@@ -1,0 +1,81 @@
+<ScrollViewAnimated @transitions={{this.scrollTransitions}}>
+  <div class="web web__terms-and-conditions web__stick-top">
+    <BoldHeading @tag="h1" @title={{t "web.terms-and-conditions.title"}} @modifier="web main" />
+  </div>
+
+  <div class="web web__page web__page--terms-and-conditions">
+    <ol class="list--ordered">
+      <BoldHeading @tagName="h6" @modifier="page">
+        {{t "web.terms-and-conditions.introduction.header"}}
+      </BoldHeading>
+
+      {{t "web.terms-and-conditions.introduction.content" htmlSafe=true}}
+
+      <li>
+        <BoldHeading @tagName="h6" @modifier="page">
+          {{t "web.terms-and-conditions.entries.header"}}
+        </BoldHeading>
+
+        {{t "web.terms-and-conditions.entries.content" htmlSafe=true}}
+      </li>
+
+      <li>
+        <BoldHeading @tagName="h6" @modifier="page">
+          {{t "web.terms-and-conditions.prizes.header"}}
+        </BoldHeading>
+
+        {{t "web.terms-and-conditions.prizes.content" htmlSafe=true}}
+      </li>
+
+      <li>
+        <BoldHeading @tagName="h6" @modifier="page">
+          {{t "web.terms-and-conditions.notification.header"}}
+        </BoldHeading>
+
+        {{t "web.terms-and-conditions.notification.content" htmlSafe=true}}
+      </li>
+
+      <li>
+        <BoldHeading @tagName="h6" @modifier="page">
+          {{t "web.terms-and-conditions.publicity.header"}}
+        </BoldHeading>
+
+        {{t "web.terms-and-conditions.publicity.content" htmlSafe=true}}
+      </li>
+
+      <li>
+        <BoldHeading @tagName="h6" @modifier="page">
+          {{t "web.terms-and-conditions.prohibited.header"}}
+        </BoldHeading>
+
+        {{t "web.terms-and-conditions.prohibited.content" htmlSafe=true}}
+      </li>
+
+      <li>
+        <BoldHeading @tagName="h6" @modifier="page">
+          {{t "web.terms-and-conditions.breach.header"}}
+        </BoldHeading>
+
+        {{t "web.terms-and-conditions.breach.content" htmlSafe=true}}
+      </li>
+
+      <li>
+        <BoldHeading @tagName="h6" @modifier="page">
+          {{t "web.terms-and-conditions.liability.header"}}
+        </BoldHeading>
+
+        {{t "web.terms-and-conditions.liability.content" htmlSafe=true}}
+      </li>
+
+      <li>
+        <BoldHeading @tagName="h6" @modifier="page">
+          {{t "web.terms-and-conditions.general.header"}}
+        </BoldHeading>
+
+        {{t "web.terms-and-conditions.general.content" htmlSafe=true}}
+      </li>
+    </ol>
+  </div>
+
+  <WebFooter />
+</ScrollViewAnimated>

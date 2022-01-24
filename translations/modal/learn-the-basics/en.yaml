@@ -1,0 +1,12 @@
+step:
+  mega-player:
+    description: The {boosterName} allows one driver to score {multiplier}x points. You get two {boosterName} plays per season.
+
+  scoring:
+    description: Players score points based on several factors such as qualifying position, race position, beat team mate and others as detailed on the Points Scoring page.
+
+  team:
+    description: Use your $100m to select 5 drivers and 1 constructor.
+
+  turbo-player:
+    description: Select one driver to be your {boosterName} who scores {multiplier}x points.

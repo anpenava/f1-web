@@ -1,0 +1,17 @@
+initial:
+  qualifying_streak_event_progress: Cl
+  race_streak_event_progress: C
+  top-ten-in-a-row-qualifying: Cl
+  top-ten-in-a-row-race: C
+
+sorter:
+  qualifying_streak_event_progress: Racha Cl
+  race_streak_event_progress: Racha C
+  top-ten-in-a-row-qualifying: Racha Cl
+  top-ten-in-a-row-race: Racha C
+
+tooltip:
+  qualifying_streak_event_progress: Racha en clasificación
+  race_streak_event_progress: Racha en carrera
+  top-ten-in-a-row-qualifying: Racha en clasificación
+  top-ten-in-a-row-race: Racha en carrera

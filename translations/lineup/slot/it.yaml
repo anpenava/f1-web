@@ -1,0 +1,6 @@
+header:
+  scores:
+    gameweek:
+      abbr: R/W
+      label: Settimana di gara
+      tooltip: Punti settimana di gara

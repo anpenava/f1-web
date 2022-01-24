@@ -1,0 +1,13 @@
+global:
+  first:
+    heading: 1st Prize
+    text: Wins 2x Paddock Club Passes to a 2021 Grand Prix
+    description: "* Restrictions apply, eligible for the following races only: China, Baku, Canada, Austria, Hungary, Belgium, Russia, Japan, USA."
+  second:
+    heading: 2nd Prize
+    text: 2x Grandstand Tickets and Paddock Passes to a 2021 Grand Prix
+    description: "** excludes Australia, Vietnam, Spain, Monaco, Italy, Singapore and Brazil."
+  third:
+    heading: 3rd prize
+    text: F1TV Pro or Access depending on territory.
+    description: "*** In regions where F1® TV Pro is not available this will be replaced with a 12 month subscription to F1® TV Access."

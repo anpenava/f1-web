@@ -1,0 +1,81 @@
+mega:
+  abbr: MD
+  name: Mega Driver
+  rule: "Any driver except {turboName} can be {name}, no cost restriction"
+  description:
+    "
+      <p>
+        {name} is a new booster that multiplies the points scored by the selected driver by 3x.
+        You get two {name} plays per season – one in the first half of the season up to the summer break at Hungary and one after the summer break from Belgium onwards for the second half of the season.
+      </p>
+
+      {use, select,
+        firstUsed { <p>You have already played your first {name} of the season - your second {name} play will become active once the summer break begins.</p> }
+        secondAvailable { <p>Your second {name} play is now active.</p> }
+        secondUsed { <p>You have already played both of your {name} for this season.</p> }
+        other { }
+      }
+    "
+  not-eligible:
+    empty: "You need to select a driver first"
+    position: "Constructors are not eligible"
+    threshold: "Can''t select drivers over ${amount}m"
+
+turbo:
+  abbr: TD
+  demoted:
+    description: "Your previously selected {name} is priced above ${amount}m in the new raceweek. As such, your {name} has been reassigned to the next highest priced driver under ${amount}m."
+  name: Turbo Driver
+  not-eligible:
+    empty: "You need to select a driver first"
+    position: "Constructors are not eligible"
+    threshold: "Can''t select drivers over ${amount}m"
+
+wildcard:
+  description:
+    "
+    <p>
+      The Wildcard allows you to <strong>make up to 12 substitutions for free</strong> in the raceweek you play it,
+      enabling you to make a full team reset and to make additional substitutions to grow your budget.
+    </p>
+
+    <p>
+      You get two Wildcard plays per season - one in the first half of the season up to the summer break at Hungary and one after the summer break from Belgium onwards for the second half of the season.
+    </p>
+    "
+
+  more:
+    inactive:
+      "
+      <p>
+        The Wildcard becomes active from raceweek 2 onwards.
+      </p>
+      "
+
+    new-lineup:
+      "
+      <p>
+        Wildcard does not become active until your team has played its first raceweek.
+      </p>
+      "
+
+    used-1:
+      "
+      <p>
+        You have already played your first Wildcard of the season - your second Wildcard will become active once the summer break begins.
+      </p>
+      "
+
+    active:
+      "
+      <p>
+        Your second Wildcard play is now active.
+      </p>
+      "
+
+    used-2:
+      "
+      <p>
+        You have already played both of your Wildcards for this season.
+      </p>
+      "

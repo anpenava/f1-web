@@ -1,0 +1,80 @@
+mega:
+  abbr: MD
+  name: Mega Driver
+  rule: "N''importe quel pilote, excepté {turboName} peut être {name}, sans restriction de coût"
+  description:
+    "
+      <p>
+        {name} est un nouveau booster qui multiplie les points marqués par le pilote selectionné par 3x.
+        Vous avez droit à deux utilisations {name} par saison - un dans la première moitié de la saison jusqu''à la pause estivale et un après la pause pour la deuxième moitié de la saison. Si vous n''utilisez pas votre première utilisation Mega Driver avant la pause estivale, il ne sera pas reporté après la pause. Une fois que vos utilisations Mega Driver sont utilisés, vous ne pouvez plus les réutiliser pour le reste de la saison.
+      </p>
+
+      {use, select,
+        firstUsed { <p>Vous avez déjà utilisé votre premier {name} de la saison - votre deuxième utilisation {name} deviendra active au début de la pause estivale.</p> }
+        secondAvailable { <p>Votre deuxième utilisation {name} est maintenant active.</p> }
+        secondUsed { <p>Vous avez déjà utilisé tous vos {name} pour cette saison.</p> }
+        other { }
+      }
+    "
+  not-eligible:
+    empty: "Vous devez d''abord choisir un pilote"
+    position: "Les constructeurs ne sont pas éligibles"
+    threshold: "Impossible de sélectionner un pilote valant plus de ${amount}m"
+
+turbo:
+  abbr: TD
+  demoted:
+    description: "Le {name} sélectionné précédemment est coté à plus de ${amount}m dans la nouvelle semaine de course. Par conséquent, votre {name} a été réassigné au pilote le plus coté en dessous de ${amount}m."
+  name: Turbo Driver
+  not-eligible:
+    empty: "Vous devez d''abord choisir un pilote"
+    position: "Les constructeurs ne sont pas éligibles"
+    threshold: "Impossible de sélectionner un pilote valant plus de ${amount}m"
+
+wildcard:
+  description:
+    "
+    <p>
+      Le Joker vous permet de faire des <strong>changements illimités</strong> dans votre équipe, sans pénalité.
+    </p>
+
+    <p>
+      Vous avez deux utilisations du Joker dans la saison 2020 - une utilisation jusqu''a Mugello (9ème course) et une autre après.
+    </p>
+    "
+
+  more:
+    inactive:
+      "
+      <p>
+        Le Joker devient actif à partir de la deuxième semaine de course.
+      </p>
+      "
+
+    new-lineup:
+      "
+      <p>
+        Le Joker ne deviendra pas actif tant que votre équipe n''a pas joué sa premère semaine de course.
+      </p>
+      "
+
+    used-1:
+      "
+      <p>
+        Vous avez déjà utilisé votre premier Joker pour cette saison - votre deuxième Joker sera actif au début de la période estivale.
+      </p>
+      "
+
+    active:
+      "
+      <p>
+        Votre deuxième Joker est maintenant actif.
+      </p>
+      "
+
+    used-2:
+      "
+      <p>
+        Vous avez déjà utilisé tous vos Joker pour cette saison.
+      </p>
+      "

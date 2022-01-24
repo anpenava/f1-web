@@ -1,0 +1,30 @@
+promotion-1:
+  heading: Inviter un ami
+
+  entered:
+    call-to-action: Fermer
+    message: "
+      Vous avez maintenant {entries}/5 participations gratuites au tirage au sort pour gagner un prix.
+    "
+    title: Quelqu''un a accepté votre Inviter un Ami dans une ligue.
+
+  not-entered:
+    call-to-action: Créer une ligue privée
+    message: "
+      <p>
+        Créez une ligue privée depuis le Bahreïn - Abou Dabi.
+        Invitez 5 amis qui sont nouveau à la Fantasy F1 et obtenez
+        une participation au tirage au sort par utilisateur - 5 participations maximum par personne.
+      </p>
+    "
+    title: Gagnez une casquette signée par Lewis Hamilton !
+
+promotion-middle-east-league:
+  heading: Ligue du Moyen-Orient
+
+  not-entered:
+    call-to-action: Participez maintenant
+    message: "<p>Rejoignez la ligue du Moyen-Orient.</p>"
+    title: Gagnez une casquette signée par Kimi Räikkönen !
+
+agreement: Termes et conditions

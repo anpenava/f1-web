@@ -1,0 +1,109 @@
+qualifying:
+  title: Qualification
+  events:
+    1:
+      name: Fin de la Q1
+    2:
+      name: Fin de la Q2
+    3:
+      name: Fin de la Q3
+    4:
+      name: Qualifié devant son coéquipier (pilote uniquement)
+    5:
+      name: Ne s''est pas qualifié (pilote uniquement)
+    6:
+      name: Disqualification des qualifications (pilote uniquement)
+qualifying-position-bonuses:
+  title: Bonus de position en Qualification
+  events:
+    1:
+      name: En tête
+    2:
+      name: 2ème place
+    3:
+      name: 3ème place
+    4:
+      name: 4ème place
+    5:
+      name: 5ème place
+    6:
+      name: 6ème place
+    7:
+      name: 7ème place
+    8:
+      name: 8ème place
+    9:
+      name: 9ème place
+    10:
+      name: 10ème place
+race:
+  title: Course
+  events:
+    1:
+      name: Fin de la course
+    2:
+      name: Fin de la course, place gagnée (par place gagnée, max. +10 pts)
+    3:
+      name: A fini avant son coéquipier (pilote uniquement)
+    4:
+      name: Tour le plus rapide (pilote uniquement)
+    5:
+      name: A commencé dans le top 10, a fini la course mais a perdu des places (par place perdue, max. -10 pts)
+    6:
+      name:A commencé en dehors du top 10, a fini la course mais a perdu des places (par place perdue, max. -5 pts)
+    7:
+      name: Non classé (pilote uniquement)
+    8:
+      name: Disqualification de la course (pilote uniquement)
+  note:
+    "
+      <p>
+        <strong>* Places gagnées:</strong> Les places gagnées sont basées sur la place de départ du pilote sur la grille de départ.
+      </p>
+
+      <p>
+        <strong>** Classement: </strong>
+        Les voitures qui ont effectué 90% du nombre de tours effectués par le gagnant (arrondi à la baisse au nombre entier de tours) sont considérées comme ayant fini la course. Les voitures qui ont effectué moins de 90% du nombre de tours effectués par le gagnant (arrondi à la baisse au nombre entier de tours), ne seront pas classées. Le classement est basé sur les décisions du FIA.
+      </p>
+    "
+finishing-position-bonuses:
+  title: Bonus de placement de fin
+  events:
+    1:
+      name: En tête
+    2:
+      name: 2ème place
+    3:
+      name: 3ème place
+    4:
+      name: 4ème place
+    5:
+      name: 5ème place
+    6:
+      name: 6ème place
+    7:
+      name: 7ème place
+    8:
+      name: 8ème place
+    9:
+      name: 9ème place
+    10:
+      name: 10ème place
+streaks:
+  title: Victoires
+  events:
+    1:
+      name: Qualification du pilote - Le pilote se qualifie dans le Top 10 pour 5 courses consécutives
+    2:
+      name: Course du pilote - Le pilote finit la course dans le Top 10 pour 5 courses consécutives
+    3:
+      name: Qualitifcation du constructeur - Les deux pilotes se qualifient dans le Top 10 pour 3 courses consécutives
+    4:
+      name: Course du constructeur - Les deux pilotes finissent dans le Top 10 pour 3 courses consécutives
+  note:
+    "
+      <p>
+        * Quand un pilote ou un constructeur obtient une victoire, cette victoire sera réinitialisée et recommencera à partir de zéro.
+        Par example : Un pilote obtient cinq Top 10 consécutifs. Il obtiendra une victoire, mais devra obtenir cinq nouveaux Top 10 consécutifs pour avoir les points de victoire une nouvelle fois.
+      <p>
+    "

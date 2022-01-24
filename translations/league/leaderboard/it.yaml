@@ -1,0 +1,7 @@
+processing:
+  weekly: Le classifiche verranno aggiornate al termine della settimana di gara.
+empty:
+  default: La settimana di gara selezionata non è ancora iniziata. Le classifiche per ogni settimana di gara vengono aggiornate alla fine di ogni settimana di gara. Puoi apportare modifiche alle tue squadre prima dell''inizio di ogni settimana di gara.
+  live: La settimana di gara selezionata è già iniziata. Le classifiche per ogni settimana di gara vengono aggiornate alla fine di ogni settimana di gara.
+  my-rankings: Non hai inserito squadre per questa settimana di gara.
+  verified-rankings: Non ci sono partecipanti verificati per questa settimana di gara.

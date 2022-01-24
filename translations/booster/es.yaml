@@ -1,0 +1,81 @@
+mega:
+  abbr: MP
+  name: Mega Piloto
+  rule: "Cualquier piloto excepto {turboName} puede ser {name}, sin restricción de costes"
+  description:
+    "
+      <p>
+        {name} es un nuevo refuerzo que multiplica por 3x los puntos obtenidos por el piloto seleccionado.
+        Puedes usar el {name} dos veces por temporada: uno en la primera mitad de la temporada, antes del descanso del verano, y otro en la segunda mitad de la temporada, justo después del descanso del verano.
+      </p>
+
+      {use, select,
+        firstUsed { <p>Ya has jugado tu primer {name} de la temporada - tu segundo juego {name} estará activo una vez comiencen las vacaciones de verano.</p> }
+        secondAvailable { <p>Tu segundo juego {name} ahora está activo.</p> }
+        secondUsed { <p>Ya has jugado ambos {name} para esta temporada.</p> }
+        other { }
+      }
+    "
+  not-eligible:
+    empty: "Primero necesitas seleccionar un piloto"
+    position: "Los constructores no son elegibles"
+    threshold: "No se pueden seleccionar pilotos de más de ${amount}m"
+
+turbo:
+  abbr: TP
+  demoted:
+    description: "Tu {name} seleccionado previamente vale más de ${amount}m en la nueva semana de competición. Como tal, tu {name} ha sido reasignado al siguiente piloto con el precio más alto por debajo de ${amount}m."
+  name: Turbo Piloto
+  not-eligible:
+    empty: "Primero necesitas seleccionar un piloto"
+    position: "Los constructores no son elegibles"
+    threshold: "No se pueden seleccionar pilotos de más de ${amount}m"
+
+wildcard:
+  description:
+    "
+    <p>
+      El Comodín te permite <strong>hacer hasta 12 sustituciones gratis</strong> en la carrera que lo usas,
+      permitiéndote hacer un cambio completo de tu equipo además de sustituciones adicionales para incrementar tu presupuesto.
+    </p>
+
+    <p>
+      Puedes usar 2 Comodines por temporada.
+    </p>
+    "
+
+  more:
+    inactive:
+      "
+      <p>
+        Podrás usar el Comodín desde la carrera 2 en adelante.
+      </p>
+      "
+
+    new-lineup:
+      "
+      <p>
+        No podrás usar el Comodín hasta que tu equipo no haya jugado su primera carrera.
+      </p>
+      "
+
+    used-1:
+      "
+      <p>
+        Ya has jugado tu primer Comodín de la temporada - Tu segundo Comodín se activará una vez comiencen las vacaciones de verano.
+      </p>
+      "
+
+    active:
+      "
+      <p>
+        Tu segundo juego Comodín ahora está activo.
+      </p>
+      "
+
+    used-2:
+      "
+      <p>
+        Ya has jugado ambos juegos Comodín para esta temporada.
+      </p>
+      "

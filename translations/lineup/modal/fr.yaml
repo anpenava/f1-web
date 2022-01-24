@@ -1,0 +1,6 @@
+information:
+  subs-bank:
+    message: La banque de substitutions vous permet d''effectuer jusqu''à {substitutions} remplacements dans votre équipe chaque semaine de course avant l''heure de fermeture de l''équipe. Les {freeSubstitutions} premiers remplacements sont gratuits, les remplacements supplémentaires entraînant une pénalité de -{cost} points par remplacement. Chaque fois que vous enregistrez un remplacement d''équipe, votre banque de substitutions est réduite d''une unité.
+
+  total-value:
+    message: Votre valeur totale est la valeur de votre équipe plus votre budget restant. Vous pouvez augmenter votre valeur totale en utilisant votre banque de substitutions pour ajouter et retirer des pilotes et des constructeurs de votre équipe.

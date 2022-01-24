@@ -1,0 +1,17 @@
+initial:
+  qualifying_streak_event_progress: Q
+  race_streak_event_progress: R
+  top-ten-in-a-row-qualifying: Q
+  top-ten-in-a-row-race: R
+
+sorter:
+  qualifying_streak_event_progress: Q Streak
+  race_streak_event_progress: R Streak
+  top-ten-in-a-row-qualifying: Q Streak
+  top-ten-in-a-row-race: R Streak
+
+tooltip:
+  qualifying_streak_event_progress: Qualifying streak
+  race_streak_event_progress: Race streak
+  top-ten-in-a-row-qualifying: Qualifying streak
+  top-ten-in-a-row-race: Race streak

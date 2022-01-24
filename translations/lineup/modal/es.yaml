@@ -1,0 +1,9 @@
+information:
+  subs-bank:
+    message:
+      El Banco de Sustituciones te permite realizar hasta {substitutions} sustituciones gratis cada semana antes del cierre de edición de equipos.
+      Las primeras {freeSubstitutions} sustituciones de cada semana, son gratuítas. Las sustituciones adicionales que hagas, incurrirán en un coste de -{cost} puntos por sustitución.
+      Por cada sustitución que guardes, tu Banco de Sustituciones se verá reducido en uno.
+
+  total-value:
+    message: Tu Valor Total es el valor de tu equipo sumado a tu presupuesto restante. Puedes incrementar tu Valor Total usando tu Banco de Sustituciones para añadir y eliminar pilotos y constructores de tu equipo.

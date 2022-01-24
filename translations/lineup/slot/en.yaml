@@ -1,0 +1,6 @@
+header:
+  scores:
+    gameweek:
+      abbr: R/W
+      label: Raceweek
+      tooltip: Raceweek Points

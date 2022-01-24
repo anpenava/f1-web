@@ -1,0 +1,20 @@
+messages:
+  saved:
+    default: Tu equipo se ha guardado. Ahora {substitutions, plural, =1 { te queda 1 sustitución } other {te quedan {substitutions} sustituciones}} para esta carrera.
+
+substitutions:
+  confirm-dialog:
+    message:
+      free: Estás realizando {substitutions, plural, =1 { 1 sustitución } other {# sustituciones}} en tu equipo, dejándote con {remaining, plural, =1 { 1 sustución restante } other {# sustuciones restantes}} para esta carrera.
+      paid: Estás realizando {substitutions, plural, =1 { 1 sustitución } other {# sustituciones}} en tu equipo, las cuales te harán incurrir en una penalización de {points} pts. Tendrás un Banco de Sustituciones de {remaining, plural, =1 {1 sustitución restante} other {# sustituciones restantes}} para esta carrera.
+
+whats-next-dialog:
+  title: ¿Qué sigue?
+  message: Tu equipo fue creado y se unió a la liga global, local y de constructor. Ahora, puedes crear una liga para ti y tus amigos.
+  button: OK
+
+tooltip:
+  average-budget: Presupuesto promedio restante por piloto / constructor
+
+team-value:
+  tooltip: Cambio total de valor en la semana de competición actual

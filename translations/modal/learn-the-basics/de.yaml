@@ -1,0 +1,12 @@
+step:
+  mega-player:
+    description: Der {boosterName} ermöglicht es einem Fahrer,{multiplier}x Punkte zu erzielen. Sie erhalten zwei {boosterName} Spiele pro Saison.
+
+  scoring:
+    description: Spieler punkten basierend auf mehreren Faktoren wie Qualifikationsposition, Rennposition, besiegen des Teamkollegen und andere, wie auf der Punktebewertungsseite beschrieben.
+
+  team:
+    description: Verwenden Sie Ihre 100m, um 5 Fahrer und 1 Konstrukteur auszuwählen.
+
+  turbo-player:
+    description: Wählen Sie einen Fahrer aus, der Ihr {boosterName} ist, der {multiplier}x Punkte erzielt.

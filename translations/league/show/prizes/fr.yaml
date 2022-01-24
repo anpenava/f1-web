@@ -1,0 +1,13 @@
+global:
+  first:
+    heading: Premier Prix
+    text: Gagne 2 Pass Paddock Club pour un Grand Prix 2021
+    description: "* Des restrictions s''appliquent, l''éligibilité de ce prix est uniquement pour les courses suivantes: Chine, Bakou, Canada, Autriche, Hongrie, Belgique, Russie, Japon, USA."
+  second:
+    heading: Deuxième prix
+    text: 2 tickets tribunes et pass Paddock pour un Grand Prix 2021
+    description: "** à l''exception de l''Australie, Vietnam, Espagne, Monaco, Italie, Singapour et Brésil."
+  third:
+    heading: Troisème prix
+    text: F1TV Pro ou Access en fonction de la zone géographique.
+    description: "*** Dans les régions ou F1® TV Pro n''est pas disponible, le prix sera remplacé par un abonnement de 12 mois à F1® TV Access."

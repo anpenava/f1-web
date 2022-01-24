@@ -1,0 +1,17 @@
+initial:
+  qualifying_streak_event_progress: Q
+  race_streak_event_progress: C
+  top-ten-in-a-row-qualifying: Q
+  top-ten-in-a-row-race: C
+
+sorter:
+  qualifying_streak_event_progress: Victoire Q
+  race_streak_event_progress: Victoire C
+  top-ten-in-a-row-qualifying: Victoire Q
+  top-ten-in-a-row-race: Victoire C
+
+tooltip:
+  qualifying_streak_event_progress: Victoire de Qualification
+  race_streak_event_progress: Victoire de Course
+  top-ten-in-a-row-qualifying: Victoire de Qualification
+  top-ten-in-a-row-race: Victoire de Course

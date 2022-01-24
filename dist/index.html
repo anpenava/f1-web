@@ -3,25 +3,245 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>F1Web</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>F1 Fantasy</title>
+    <meta name="description" content="Play against your friends to see who knows most about F1®">
+    <meta property="og:site_name" content="F1 Fantasy">
+    <meta property="og:title" content="F1 Fantasy">
+    <meta property="og:description" content="Play against your friends to see who knows most about F1®">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://fantasy-stage.formula1.com/images/branding/formula-1/social.jpg" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:url" content="/" />
+
+    <meta name=”twitter:card” content="summary" />
+    <meta property="twitter:image" content="https://fantasy-stage.formula1.com/images/branding/formula-1/social.jpg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+    <meta name="msapplication-config" content="/browserconfig.xml" />
 
     
-<meta name="f1-web/config/environment" content="%7B%22modulePrefix%22%3A%22f1-web%22%2C%22environment%22%3A%22development%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22f1-web%22%2C%22version%22%3A%220.0.0%2Be029d440%22%7D%2C%22exportApplicationGlobal%22%3Atrue%7D" />
+<meta name="f1-web/config/environment" content="%7B%22modulePrefix%22%3A%22f1-web%22%2C%22environment%22%3A%22development%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22ICON%22%3A%7B%22DRIVER%22%3A%22font-awesome%22%2C%22CUSTOM%22%3A%7B%22TYPE%22%3A%22class%22%2C%22CLASS%22%3A%22zmdi%22%2C%22CHECKBOX%22%3A%22zmdi-check%22%2C%22LIST_HEADER_COLUMN%22%3A%7B%22ASC%22%3A%22zmdi-long-arrow-up%22%2C%22DESC%22%3A%22zmdi-long-arrow-down%22%7D%7D%7D%2C%22APP%22%3A%7B%22subdomain%22%3A%22%22%2C%22subpath%22%3A%22app%22%2C%22cache%22%3A%7B%22images%22%3Atrue%7D%2C%22navigationStack%22%3A%7B%22enabled%22%3Atrue%7D%2C%22maintenance%22%3Afalse%2C%22password%22%3A%7B%22enabled%22%3Afalse%2C%22value%22%3A%223zkRWenJM_4%5D%5DbB*%22%2C%22cookieName%22%3A%22basic-auth-token%22%7D%2C%22url%22%3A%22http%3A%2F%2Ffantasy-stage.formula1.com%3A4200%22%2C%22menu%22%3A%7B%22bottom-bar%22%3A%5B%7B%22type%22%3A%22item%22%2C%22route%22%3A%22web.prizes%22%2C%22icon%22%3A%22trophy-alt%3Afa%3Afas%22%2C%22labelKey%22%3A%22menu.bottom-bar.prizes%22%7D%2C%7B%22type%22%3A%22item%22%2C%22route%22%3A%22web.game-rules%22%2C%22icon%22%3A%22book%3Afa%3Afas%22%2C%22labelKey%22%3A%22menu.bottom-bar.game-rules%22%7D%5D%2C%22drawer%22%3A%5B%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.subs-bank%22%2C%22labelKey%22%3A%22menu.drawer.subs-bank%22%2C%22icon%22%3A%22treasure-chest%3Afa%3Afar%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.dynamic-pricing%22%2C%22labelKey%22%3A%22menu.drawer.dynamic-pricing%22%2C%22icon%22%3A%22chart-line%3Afa%3Afar%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.game-rules%22%2C%22labelKey%22%3A%22menu.drawer.game-rules%22%2C%22icon%22%3A%22book-alt%3Afa%3Afar%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.points-scoring%22%2C%22labelKey%22%3A%22menu.drawer.points-scoring%22%2C%22icon%22%3A%22chart-bar%3Afa%3Afar%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.prizes%22%2C%22labelKey%22%3A%22menu.drawer.prizes%22%2C%22icon%22%3A%22trophy%3Afa%3Afas%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.faq%22%2C%22labelKey%22%3A%22menu.drawer.faq%22%2C%22icon%22%3A%22question-circle%3Afa%3Afar%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.what-is-new%22%2C%22labelKey%22%3A%22menu.drawer.what-is-new%22%2C%22icon%22%3A%22star-exclamation%3Afa%3Afar%22%7D%2C%7B%22type%22%3A%22link%22%2C%22url%22%3A%22https%3A%2F%2Fwww.formula1.com%2F%22%2C%22target%22%3A%22formula-1%22%2C%22labelText%22%3A%22Formula1.com%22%2C%22icon%22%3A%22browser%3Afa%3Afar%22%7D%5D%2C%22footer--game%22%3A%5B%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.fantasy%22%2C%22labelKey%22%3A%22menu.footer.fantasy%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.leagues%22%2C%22labelKey%22%3A%22menu.footer.leagues%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.subs-bank%22%2C%22labelKey%22%3A%22menu.footer.subs-bank%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.dynamic-pricing%22%2C%22labelKey%22%3A%22menu.footer.dynamic-pricing%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.daily-fantasy%22%2C%22target%22%3A%22playon%22%2C%22labelKey%22%3A%22menu.footer.daily-fantasy%22%7D%5D%2C%22footer--more%22%3A%5B%7B%22type%22%3A%22link%22%2C%22url%22%3A%22https%3A%2F%2Faccount.formula1.com%2F%23%2Fen%2Fprivacy-policy%22%2C%22target%22%3A%22formula1%22%2C%22labelKey%22%3A%22menu.footer.privacy-policy%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.terms-and-conditions%22%2C%22labelKey%22%3A%22menu.footer.terms-and-conditions%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.team-marketing%22%2C%22labelKey%22%3A%22menu.footer.team-marketing%22%7D%2C%7B%22type%22%3A%22link%22%2C%22url%22%3A%22https%3A%2F%2Fwww.formula1.com%2F%22%2C%22target%22%3A%22playon%22%2C%22labelKey%22%3A%22menu.footer.external-fantasy%22%7D%2C%7B%22type%22%3A%22link%22%2C%22id%22%3A%22cookie_Preference%22%2C%22labelKey%22%3A%22menu.footer.manage-cookies%22%7D%5D%2C%22footer--other%22%3A%5B%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.game-rules%22%2C%22labelKey%22%3A%22menu.footer.game-rules%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.points-scoring%22%2C%22labelKey%22%3A%22menu.footer.points-scoring%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.prizes%22%2C%22labelKey%22%3A%22menu.footer.prizes%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.faq%22%2C%22labelKey%22%3A%22menu.footer.faq%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.what-is-new%22%2C%22labelKey%22%3A%22menu.footer.what-is-new%22%7D%5D%2C%22footer--social%22%3A%5B%7B%22type%22%3A%22link%22%2C%22url%22%3A%22https%3A%2F%2Fwww.facebook.com%2FFormula1%2F%22%2C%22icon%22%3A%22facebook-f%3Afa%3Afab%22%2C%22target%22%3A%22facebook%22%7D%2C%7B%22type%22%3A%22link%22%2C%22url%22%3A%22https%3A%2F%2Ftwitter.com%2FF1%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor%22%2C%22icon%22%3A%22twitter%3Afa%3Afab%22%2C%22target%22%3A%22twitter%22%7D%2C%7B%22type%22%3A%22link%22%2C%22url%22%3A%22https%3A%2F%2Fwww.instagram.com%2Ff1%2F%3Fhl%3Den%22%2C%22icon%22%3A%22instagram%3Afa%3Afab%22%2C%22target%22%3A%22instagram%22%7D%2C%7B%22type%22%3A%22link%22%2C%22url%22%3A%22https%3A%2F%2Fwww.youtube.com%2Fuser%2FFormula1%22%2C%22icon%22%3A%22youtube%3Afa%3Afab%22%2C%22target%22%3A%22youtube%22%7D%5D%2C%22main%22%3A%5B%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.fantasy%22%2C%22labelKey%22%3A%22menu.main.fantasy%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.leagues%22%2C%22labelKey%22%3A%22menu.main.leagues%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.subs-bank%22%2C%22labelKey%22%3A%22menu.main.subs-bank%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.dynamic-pricing%22%2C%22labelKey%22%3A%22menu.main.dynamic-pricing%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.prizes%22%2C%22labelKey%22%3A%22menu.main.prizes%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.daily-fantasy%22%2C%22labelKey%22%3A%22menu.main.daily-fantasy%22%7D%2C%7B%22type%22%3A%22parent%22%2C%22labelKey%22%3A%22menu.main.more%22%2C%22children%22%3A%5B%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.game-rules%22%2C%22labelKey%22%3A%22menu.main.game-rules%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.points-scoring%22%2C%22labelKey%22%3A%22menu.main.points-scoring%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.faq%22%2C%22labelKey%22%3A%22menu.main.faq%22%7D%2C%7B%22type%22%3A%22route%22%2C%22route%22%3A%22web.what-is-new%22%2C%22labelKey%22%3A%22menu.main.what-is-new%22%7D%2C%7B%22type%22%3A%22link%22%2C%22url%22%3A%22https%3A%2F%2Fwww.formula1.com%2F%22%2C%22target%22%3A%22formula-1%22%2C%22labelText%22%3A%22Formula1.com%22%7D%5D%7D%5D%7D%2C%22api%22%3A%7B%22url%22%3A%22https%3A%2F%2Ffantasy-stage-api.formula1.com%22%2C%22namespace%22%3A%22partner_games%22%7D%2C%22indexRoute%22%3A%22index%22%2C%22i18n%22%3A%7B%22locale%22%3A%22en%22%2C%22locales%22%3A%5B%22de%22%2C%22en%22%2C%22es%22%2C%22fr%22%2C%22it%22%5D%2C%22languages%22%3A%5B%7B%22id%22%3A%22de%22%2C%22alpha2%22%3A%22de%22%2C%22name%22%3A%22Deutsch%22%7D%2C%7B%22id%22%3A%22en%22%2C%22alpha2%22%3A%22gb%22%2C%22name%22%3A%22English%22%7D%2C%7B%22id%22%3A%22es%22%2C%22alpha2%22%3A%22es%22%2C%22name%22%3A%22Espa%C3%B1ol%22%7D%2C%7B%22id%22%3A%22fr%22%2C%22alpha2%22%3A%22fr%22%2C%22name%22%3A%22Fran%C3%A7ais%22%7D%2C%7B%22id%22%3A%22it%22%2C%22alpha2%22%3A%22it%22%2C%22name%22%3A%22Italiano%22%7D%5D%7D%2C%22indexContent%22%3A%7B%22loading%22%3A%7B%22location%22%3A%22loading%22%7D%2C%22base-url%22%3A%7B%22location%22%3A%22base-url%22%2C%22content%22%3A%22https%3A%2F%2Ffantasy-stage.formula1.com%2F%22%7D%2C%22google-tag-manager%22%3A%7B%22enabled%22%3Atrue%2C%22location%22%3A%22head-footer%22%7D%2C%22external-google-tag-manager%22%3A%7B%22enabled%22%3Afalse%2C%22location%22%3A%22head-footer%22%7D%2C%22external-facebook-pixel%22%3A%7B%22enabled%22%3Afalse%2C%22location%22%3A%22head-footer%22%7D%2C%22cookie-banner%22%3A%7B%22location%22%3A%22body-footer%22%7D%2C%22double-click%22%3A%7B%22location%22%3A%22body-footer%22%7D%2C%22com-score%22%3A%7B%22enabled%22%3Afalse%2C%22location%22%3A%22body-footer%22%7D%2C%22sailthru%22%3A%7B%22enabled%22%3Afalse%2C%22location%22%3A%22body-footer%22%7D%7D%2C%22advertising%22%3A%7B%22enabled%22%3Atrue%2C%22driver%22%3A%22google%22%2C%22config%22%3A%7B%22account%22%3A%2221703060983%22%2C%22site%22%3A%22f1_playon_fantasy%22%7D%2C%22advertisements%22%3A%7B%22slots%22%3A%7B%22application%22%3A%22fantasy_app%22%2C%22index%22%3A%22fantasy_homepage%22%2C%22league.create%22%3A%22fantasy_create-league%22%2C%22league.show%22%3A%22fantasy_league-single-view%22%2C%22leagues.joined%22%3A%22fantasy_league-joined%22%2C%22leagues%22%3A%22fantasy_league-lobby%22%2C%22summary%22%3A%22fantasy_summary%22%2C%22teams%22%3A%22fantasy_my-teams%22%2C%22team.create%22%3A%22fantasy_create-team%22%2C%22team.show%22%3A%22fantasy_team-single-view%22%2C%22web.game-rules%22%3A%22fantasy_game-rules%22%2C%22web.points-scoring%22%3A%22fantasy_points-scoring%22%2C%22web%22%3A%22fantasy_web%22%7D%2C%22mapping%22%3A%7B%22application%22%3A%5B%7B%22viewport%22%3A%5B1920%2C600%5D%2C%22sizes%22%3A%5B%5B300%2C600%5D%2C%5B160%2C600%5D%2C%5B120%2C600%5D%2C%5B300%2C250%5D%5D%7D%2C%7B%22viewport%22%3A%5B1200%2C1000%5D%2C%22sizes%22%3A%5B%5B970%2C250%5D%2C%5B728%2C90%5D%5D%7D%2C%7B%22viewport%22%3A%5B768%2C480%5D%2C%22sizes%22%3A%5B%5B728%2C90%5D%5D%7D%2C%7B%22viewport%22%3A%5B468%2C0%5D%2C%22sizes%22%3A%5B%5B468%2C60%5D%2C%5B320%2C50%5D%5D%7D%2C%7B%22viewport%22%3A%5B0%2C0%5D%2C%22sizes%22%3A%5B%5B320%2C50%5D%5D%7D%5D%7D%7D%2C%22scriptLocation%22%3A%22body-footer%22%7D%2C%22name%22%3A%22f1-web%22%2C%22description%22%3A%22Small%20description%20for%20f1-web%20goes%20here%22%2C%22version%22%3A%220.0.0%2Bf599072b%22%2C%22recaptcha%22%3A%7B%22enabled%22%3Afalse%2C%22key%22%3Anull%2C%22scriptLocation%22%3A%22body-footer%22%2C%22validationFieldName%22%3A%22g-recaptcha-response%22%7D%7D%2C%22WEB%22%3A%7B%22name%22%3A%22formula-1%22%2C%22external%22%3Atrue%2C%22url%22%3A%7B%22login%22%3A%22https%3A%2F%2Faccount-staging.formula1.com%2F%23%2Fen%2Flogin%22%2C%22signUp%22%3A%22https%3A%2F%2Faccount-staging.formula1.com%2F%23%2Fen%2Fregister%22%7D%2C%22routes%22%3A%7B%22login%22%3A%22login%22%2C%22signUp%22%3A%22signup%22%2C%22afterAuthenticate%22%3A%22teams%22%2C%22afterSignUp%22%3A%22team.create%22%7D%2C%22theme%22%3A%7B%22navigationBarBackground%22%3A%22%23E10600%22%7D%2C%22report%22%3A%7B%22email%22%3A%22f1%40playon.co%22%7D%2C%22features%22%3A%5B%7B%22id%22%3A%22subs-bank%22%7D%2C%7B%22id%22%3A%22dynamic-pricing%22%7D%2C%7B%22id%22%3A%22trades%22%7D%5D%2C%22rules%22%3A%5B%7B%22id%22%3A%22pick-your-team%22%7D%2C%7B%22id%22%3A%22joining-leagues%22%7D%2C%7B%22id%22%3A%22manage-your-team%22%7D%2C%7B%22id%22%3A%22subs-bank%22%7D%2C%7B%22id%22%3A%22turbo-driver%22%7D%2C%7B%22id%22%3A%22mega-driver%22%7D%2C%7B%22id%22%3A%22wildcard%22%7D%2C%7B%22id%22%3A%22dynamic-pricing%22%7D%2C%7B%22id%22%3A%22team-lock%22%7D%2C%7B%22id%22%3A%22point-scoring%22%7D%2C%7B%22id%22%3A%22live-gameweek%22%7D%2C%7B%22id%22%3A%22post-race%22%7D%2C%7B%22id%22%3A%22postponed-cancelled%22%7D%2C%7B%22id%22%3A%22others%22%7D%5D%2C%22scoring%22%3A%5B%7B%22id%22%3A%22qualifying%22%2C%22events%22%3A%5B%7B%22id%22%3A1%2C%22points%22%3A1%7D%2C%7B%22id%22%3A2%2C%22points%22%3A2%7D%2C%7B%22id%22%3A3%2C%22points%22%3A3%7D%2C%7B%22id%22%3A4%2C%22points%22%3A2%7D%2C%7B%22id%22%3A5%2C%22points%22%3A-5%7D%2C%7B%22id%22%3A6%2C%22points%22%3A-10%7D%5D%7D%2C%7B%22id%22%3A%22qualifying-position-bonuses%22%2C%22events%22%3A%5B%7B%22id%22%3A1%2C%22points%22%3A10%7D%2C%7B%22id%22%3A2%2C%22points%22%3A9%7D%2C%7B%22id%22%3A3%2C%22points%22%3A8%7D%2C%7B%22id%22%3A4%2C%22points%22%3A7%7D%2C%7B%22id%22%3A5%2C%22points%22%3A6%7D%2C%7B%22id%22%3A6%2C%22points%22%3A5%7D%2C%7B%22id%22%3A7%2C%22points%22%3A4%7D%2C%7B%22id%22%3A8%2C%22points%22%3A3%7D%2C%7B%22id%22%3A9%2C%22points%22%3A2%7D%2C%7B%22id%22%3A10%2C%22points%22%3A1%7D%5D%7D%2C%7B%22id%22%3A%22race%22%2C%22events%22%3A%5B%7B%22id%22%3A1%2C%22points%22%3A1%7D%2C%7B%22id%22%3A2%2C%22points%22%3A2%7D%2C%7B%22id%22%3A3%2C%22points%22%3A3%7D%2C%7B%22id%22%3A4%2C%22points%22%3A5%7D%2C%7B%22id%22%3A5%2C%22points%22%3A-2%7D%2C%7B%22id%22%3A6%2C%22points%22%3A-10%7D%2C%7B%22id%22%3A7%2C%22points%22%3A-20%7D%5D%2C%22hasNote%22%3Atrue%7D%2C%7B%22id%22%3A%22finishing-position-bonuses%22%2C%22events%22%3A%5B%7B%22id%22%3A1%2C%22points%22%3A25%7D%2C%7B%22id%22%3A2%2C%22points%22%3A18%7D%2C%7B%22id%22%3A3%2C%22points%22%3A15%7D%2C%7B%22id%22%3A4%2C%22points%22%3A12%7D%2C%7B%22id%22%3A5%2C%22points%22%3A10%7D%2C%7B%22id%22%3A6%2C%22points%22%3A8%7D%2C%7B%22id%22%3A7%2C%22points%22%3A6%7D%2C%7B%22id%22%3A8%2C%22points%22%3A4%7D%2C%7B%22id%22%3A9%2C%22points%22%3A2%7D%2C%7B%22id%22%3A10%2C%22points%22%3A1%7D%5D%7D%2C%7B%22id%22%3A%22streaks%22%2C%22events%22%3A%5B%7B%22id%22%3A1%2C%22points%22%3A5%7D%2C%7B%22id%22%3A2%2C%22points%22%3A10%7D%2C%7B%22id%22%3A3%2C%22points%22%3A5%7D%2C%7B%22id%22%3A4%2C%22points%22%3A10%7D%5D%2C%22hasNote%22%3Atrue%7D%2C%7B%22id%22%3A%22sprint-qualifying-points-structure%22%2C%22events%22%3A%5B%7B%22id%22%3A1%2C%22points%22%3A1%7D%2C%7B%22id%22%3A2%2C%22points%22%3A1%7D%2C%7B%22id%22%3A3%2C%22points%22%3A2%7D%2C%7B%22id%22%3A4%2C%22points%22%3A3%7D%2C%7B%22id%22%3A5%2C%22points%22%3A-1%7D%2C%7B%22id%22%3A6%2C%22points%22%3A-5%7D%2C%7B%22id%22%3A7%2C%22points%22%3A-10%7D%5D%2C%22hasNote%22%3Atrue%7D%2C%7B%22id%22%3A%22sprint-qualifying-position-bonuses%22%2C%22events%22%3A%5B%7B%22id%22%3A1%2C%22points%22%3A10%7D%2C%7B%22id%22%3A2%2C%22points%22%3A9%7D%2C%7B%22id%22%3A3%2C%22points%22%3A8%7D%2C%7B%22id%22%3A4%2C%22points%22%3A7%7D%2C%7B%22id%22%3A5%2C%22points%22%3A6%7D%2C%7B%22id%22%3A6%2C%22points%22%3A5%7D%2C%7B%22id%22%3A7%2C%22points%22%3A4%7D%2C%7B%22id%22%3A8%2C%22points%22%3A3%7D%2C%7B%22id%22%3A9%2C%22points%22%3A2%7D%2C%7B%22id%22%3A10%2C%22points%22%3A1%7D%5D%2C%22hasNote%22%3Atrue%7D%5D%2C%22router%22%3A%7B%22routes%22%3A%5B%7B%22name%22%3A%22login%22%7D%2C%7B%22name%22%3A%22signup%22%7D%2C%7B%22name%22%3A%22web.leagues%22%2C%22path%22%3A%22%2Fleagues%22%7D%2C%7B%22name%22%3A%22web.prizes%22%2C%22path%22%3A%22%2Fprizes%22%7D%2C%7B%22name%22%3A%22web.game-rules%22%2C%22path%22%3A%22%2Fgame-rules%22%7D%2C%7B%22name%22%3A%22web.points-scoring%22%2C%22path%22%3A%22%2Fpoints-scoring%22%7D%2C%7B%22name%22%3A%22web.faq%22%2C%22path%22%3A%22%2Ffaq%22%7D%2C%7B%22name%22%3A%22web.what-is-new%22%2C%22path%22%3A%22%2Fwhat-is-new%22%7D%2C%7B%22name%22%3A%22web.privacy-policy%22%2C%22path%22%3A%22%2Fprivacy-policy%22%7D%2C%7B%22name%22%3A%22web.terms-and-conditions%22%2C%22path%22%3A%22%2Fterms-and-conditions%22%7D%2C%7B%22name%22%3A%22web.fantasy%22%2C%22path%22%3A%22%2Ffantasy%22%7D%2C%7B%22name%22%3A%22web.daily-fantasy%22%2C%22path%22%3A%22%2Fdaily-fantasy%22%7D%2C%7B%22name%22%3A%22web.dynamic-pricing%22%2C%22path%22%3A%22%2Fdynamic-pricing%22%7D%2C%7B%22name%22%3A%22web.team-marketing%22%2C%22path%22%3A%22%2Fteam-marketing%22%7D%2C%7B%22name%22%3A%22web.subs-bank%22%2C%22path%22%3A%22%2Fsubs-bank%22%7D%5D%7D%7D%2C%22PLAYON%22%3A%7B%22name%22%3A%22%40playon%2Fweb-framework%22%2C%22description%22%3A%22The%20default%20blueprint%20for%20ember-cli%20addons.%22%2C%22version%22%3A%220.0.0%2B3753587e%22%2C%22application%22%3A%7B%22id%22%3A%22f1%22%2C%22name%22%3A%22formula-1%22%7D%2C%22options%22%3A%7B%22year%22%3A2022%2C%22multiSport%22%3Afalse%2C%22geoRestriction%22%3Afalse%2C%22signUpOptIn%22%3Afalse%2C%22poweredBy%22%3Atrue%7D%7D%2C%22SENTRY%22%3A%7B%22enabled%22%3Afalse%2C%22ignoreErrors%22%3A%5B%22AbortError%22%2C%22Aborted%22%2C%22TransitionAborted%22%2C%22Unhandled%20Promise%20error%20detected%22%2C%22ScrollMagic.Controller%20init%20failed%22%2C%22Sailthru.init%20is%20not%20a%20function%22%5D%2C%22ignoreErrorsWithMessage%22%3A%5B%7B%7D%2C%7B%7D%2C%7B%7D%2C%7B%7D%5D%2C%22dsn%22%3A%22https%3A%2F%2Ffc37d0450c20478387cf612467657489%40o117786.ingest.sentry.io%2F2871222%22%7D%2C%22exportApplicationGlobal%22%3Atrue%7D" />
 <script src="/ember-cli-live-reload.js" type="text/javascript"></script>
+<meta name="theme-color" content="#E10600">
+<link rel="apple-touch-icon" href="/app-icon-120-4c97fe7549dda4622f9763bd5b4057cb.png" sizes="120x120">
+<link rel="apple-touch-icon" href="/app-icon-152-e1c6f5a7ef74aaadef62e50c80286718.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/app-icon-167-58210a80e971a2ce19a5a38f66fe917c.png" sizes="167x167">
+<link rel="apple-touch-icon" href="/app-icon-180-2b590120a5d77cd498b77c84a7b80c7d.png" sizes="180x180">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="F1 Fantasy">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="icon" href="/app-icon-16-558eb2e115106ee90f8e4911b31a2eda.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/app-icon-32-406b81dc0e6d06bebd01a9465536e6c4.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/app-icon-48-c558e5f3e09d3625adfc2ccd2cebfc22.png" sizes="48x48" type="image/png">
 
-    <link integrity="" rel="stylesheet" href="/assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="/assets/f1-web.css">
+    <link rel="manifest" href="/manifest.webmanifest" />
 
-    
+    <link integrity="" rel="stylesheet" href="/assets/fonts/fontawesome/css/brands.min-405e7d21cc25cff082583f4cac9dae0a.css">
+    <link integrity="" rel="stylesheet" href="/assets/fonts/fontawesome/css/light.min-ef5318727d3a64fc14da421bb5a6dac7.css">
+    <link integrity="" rel="stylesheet" href="/assets/fonts/fontawesome/css/regular.min-590c82c617b8594f413d28afc645e614.css">
+    <link integrity="" rel="stylesheet" href="/assets/fonts/fontawesome/css/solid.min-627e152068c37160970db4c3566d689b.css">
+    <link integrity="" rel="stylesheet" href="/assets/fonts/fontawesome/css/fontawesome.min-82908674e836d110a16e0e377c4103af.css">
+    <link integrity="" rel="stylesheet" href="/assets/fonts/playon/css/all-ba59d7fb8cc70011004c75aaa78c1a94.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap">
+
+    <link integrity="" rel="stylesheet" href="/assets/vendor-f1e09ef893b783519673d630cf75f4c6.css">
+    <link integrity="" rel="stylesheet" href="/assets/f1-web-a8497fadddb8d92a431c796bb1d75b5c.css">
+<!-- Google Tag Manager -->
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=Ny6Q5jrVG0P4RSXoB4osbg&gtm_preview=env-33&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P69PN95');</script> -->
+<!-- End Google Tag Manager -->
+
+    <script type="text/javascript">
+ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+ })(window,document,'script','dataLayer', 'GTM-P69PN95');
+</script>
+
+
+    <link rel="preload" href="/assets/vendor-c2fad0a854ac3fdbeb25ef8163b39e7a.js" as="script">
+    <link rel="preload" href="/assets/f1-web-24a2aa1d9815b403c16be6a0b6a6425e.js" as="script">
+    <style>
+       body:not(.playon-application--loading) #app-loading {
+        display: none;
+      }
+
+      body:not([class]) #app-loading {
+        display: flex;
+      }
+
+      #app-loading {
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #app-loading > .powered-by {
+        color: #BDBDBD;
+        width: 120px;
+        margin-top: auto;
+      }
+
+      #app-loading > .powered-by > .powered-by__label {
+        font-size: 10px;
+        line-height: 11px;
+        margin-right: 6px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      #app-loading > svg {
+        width: 300px;
+        max-width: 100%;
+        position: relative;
+        margin-top: auto;
+        padding-top: 30px;
+      }
+
+      #app-loading > .circular-progress {
+        margin-top: 30px;
+      }
+    </style>
   </head>
-  <body>
+  <body class="playon-application--loading">
+<!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P69PN95&gtm_auth=Ny6Q5jrVG0P4RSXoB4osbg&gtm_preview=env-33&gtm_cookies_win=x"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->     
+    <div id="app-loading">
+  <svg fill="#E10600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 413.97 48">
+    <g class="logo">
+      <path class="f1" d="M0,40,28,12C38.09,1.91,43.57,0,62.63,0h68.49l-13.9,13.63H65.61c-14.06,0-17.68,1.12-24.6,8L22.53,40Z"/>
+      <path class="f1" d="M67,17.42c-14.06,0-16.78.63-23.12,7L28.39,40H49.26l5-5.06c2.93-3,4.15-3.78,11.13-3.78H99.49l13.9-13.74Z"/>
+      <polyline class="f1" points="159.88 0 136.02 0 96.02 40 119.72 40 159.88 0"/>
+      <polygon class="trademark" points="134.59 33.33 139.99 33.33 139.99 34.34 137.87 34.34 137.87 40 136.7 40 136.7 34.34 134.59 34.34 134.59 33.33"/>
+      <polygon class="trademark" points="141.07 33.33 142.71 33.33 144.55 38.55 144.57 38.55 146.36 33.33 147.99 33.33 147.99 40 146.88 40 146.88 34.85 146.86 34.85 145.01 40 144.05 40 142.2 34.85 142.18 34.85 142.18 40 141.07 40 141.07 33.33"/>
+    </g>
+
+    <g fill="#15151E" class="letters">
+      <path class="fantasy" d="M169.86,40V0h31.52V8.8H180.53v7.36h20.85V25H180.53V40Z"/>
+      <path class="fantasy" d="M237,22.67V40H215q-4.54,0-7-2.08a6.82,6.82,0,0,1-2.43-5.44A8,8,0,0,1,208,26.53,42.42,42.42,0,0,1,213.65,22l9.07-6.24H205.86V8h14q9.17,0,13.12,3.87T237,22.67Zm-18.88,9.6h9.34l.1-10.56-9.65,7.46c-.6.47-1,.81-1.28,1a1.16,1.16,0,0,0-.37.88,1,1,0,0,0,.43.88A2.56,2.56,0,0,0,218.07,32.27Z"/>
+      <path class="fantasy" d="M243.14,40V8H263q7,0,10.14,3.52t3.14,9.55V40H266.13V20.8a5.69,5.69,0,0,0-.83-3.49c-.55-.7-1.61-1-3.17-1h-8.86V40Z"/>
+      <path class="fantasy" d="M280.42,15.73V8h5.18V1.49h9.33V8h17.33v7.73H294.93v13a3.66,3.66,0,0,0,.85,2.8,4.05,4.05,0,0,0,2.78.78h5.17V40h-6.35q-6.61,0-9.46-2.8c-1.91-1.87-2.86-4.7-2.86-8.51v-13Z"/>
+      <path class="fantasy" d="M340.1,22.67V40H318.18q-4.53,0-7-2.08a6.82,6.82,0,0,1-2.43-5.44,8,8,0,0,1,2.32-5.95A42.42,42.42,0,0,1,316.79,22l9.07-6.24H309V8h14q9.18,0,13.12,3.87T340.1,22.67Zm-18.88,9.6h9.34l.1-10.56L321,29.17c-.61.47-1,.81-1.28,1a1.17,1.17,0,0,0-.38.88,1,1,0,0,0,.43.88A2.62,2.62,0,0,0,321.22,32.27Z"/>
+      <path class="fantasy" d="M363.89,28.8l-8.7-1.71a14.6,14.6,0,0,1-7.33-3.36,8.39,8.39,0,0,1-2.53-6.4,9.11,9.11,0,0,1,.72-3.57,7.86,7.86,0,0,1,2.24-3,11.24,11.24,0,0,1,3.89-2A18.77,18.77,0,0,1,357.81,8H373.7v7.73H357a3.32,3.32,0,0,0-2.13.48,1.42,1.42,0,0,0-.54,1.07,1.53,1.53,0,0,0,.48,1.12,3.1,3.1,0,0,0,1.65.69l7.9,1.55c3.91.78,6.71,1.95,8.4,3.49a8,8,0,0,1,2.53,6.16,8.66,8.66,0,0,1-3.28,7Q368.74,40,362.07,40H346.39V32.27h17.39a3.42,3.42,0,0,0,2.21-.48,1.61,1.61,0,0,0,.51-1.23,1.24,1.24,0,0,0-.72-1.17A6.7,6.7,0,0,0,363.89,28.8Z"/>
+      <path class="fantasy" d="M394.82,27.15a1.39,1.39,0,0,0,.53.77,1.16,1.16,0,0,0,.59.19.86.86,0,0,0,.56-.19,1.7,1.7,0,0,0,.45-.77L403.19,8H414L402.5,39a13.8,13.8,0,0,1-4.88,6.43Q394.18,48,388.42,48h-8.75V39.52h9.66a4.19,4.19,0,0,0,2.9-.88,6.8,6.8,0,0,0,1.68-2.91l.38-1.06h-2.56a5.69,5.69,0,0,1-5.82-3.9L376.63,8h11.15Z"/>
+    </g>
+  </svg>
+
+  <div class="circular-progress circular-progress--active circular-progress--indeterminate">
+    <div class="circular-progress__layer circular-progress__layer-1">
+      <div class="circular-progress__circle-clipper circular-progress__left">
+        <div class="circular-progress__circle"></div>
+      </div>
+
+      <div class="circular-progress__gap-patch">
+        <div class="circular-progress__circle"></div>
+      </div>
+
+      <div class="circular-progress__circle-clipper circular-progress__right">
+        <div class="circular-progress__circle"></div>
+      </div>
+    </div>
+
+    <div class="circular-progress__layer circular-progress__layer-2">
+      <div class="circular-progress__circle-clipper circular-progress__left">
+        <div class="circular-progress__circle"></div>
+      </div>
+
+      <div class="circular-progress__gap-patch">
+        <div class="circular-progress__circle"></div>
+      </div>
+
+      <div class="circular-progress__circle-clipper circular-progress__right">
+        <div class="circular-progress__circle"></div>
+      </div>
+    </div>
+
+    <div class="circular-progress__layer circular-progress__layer-3">
+      <div class="circular-progress__circle-clipper circular-progress__left">
+        <div class="circular-progress__circle"></div>
+      </div>
+
+      <div class="circular-progress__gap-patch">
+        <div class="circular-progress__circle"></div>
+      </div>
+
+      <div class="circular-progress__circle-clipper circular-progress__right">
+        <div class="circular-progress__circle"></div>
+      </div>
+    </div>
+
+    <div class="circular-progress__layer circular-progress__layer-4">
+      <div class="circular-progress__circle-clipper circular-progress__left">
+        <div class="circular-progress__circle"></div>
+      </div>
+
+      <div class="circular-progress__gap-patch">
+        <div class="circular-progress__circle"></div>
+      </div>
+
+      <div class="circular-progress__circle-clipper circular-progress__right">
+        <div class="circular-progress__circle"></div>
+      </div>
+    </div>
+  </div>
+  <div class="powered-by  powered-by--md  powered-by--theme-grey powered-by--themed app__powered-by">
+    <span class="powered-by__label">Powered by</span>
+    <div class="logo logo--playon logo--default logo--svg logo--horizontal powered-by__logo" aria-label="playon">
+      <!--?xml version="1.0" encoding="utf-8"?-->
+      <svg class="logo__image logo__image--svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="164.4 353.8 226.8 48.5" xml:space="preserve">
+        <style type="text/css">
+          .play{fill:#BDBDBD;}
+          .on{fill:#BDBDBD;}
+        </style>
+
+        <g>
+          <g>
+            <path class="play" d="M164.4,401.5v-47.1h20.7c8.7,0,12.2,7,12.2,15.7c0,8.9-3.5,15.6-12.3,15.6h-8.8v15.8H164.4L164.4,401.5z
+               M181.7,363.8h-5.5v12.6h5.5c2.8,0,3.7-2.4,3.7-6.2C185.4,366.2,184.5,363.8,181.7,363.8z"></path>
+            <path class="play" d="M201.6,401.5v-47.1h11.9v37.2h18.6v9.9H201.6L201.6,401.5z"></path>
+            <path class="play" d="M264.1,401.5l-2.3-8.6h-12.4l-2.4,8.6h-12.2l13.2-47.1H263l13.6,47.1H264.1z M251.4,383.5h8.1l-2.9-13.1
+              c-0.4-1.5-0.9-5.1-1.1-6.7h-0.1c-0.2,1.6-0.7,5.2-1,6.7L251.4,383.5z"></path>
+            <path class="play" d="M284.7,401.5v-17.9l-14.7-29.3H283l5.8,12.7c0.5,1.1,1.5,3.9,1.9,5.3h0.1c0.4-1.4,1.4-4.2,1.9-5.3l5.8-12.7
+              h12.8l-14.7,29.3v17.8H284.7z"></path>
+          </g>
+          <g>
+            <path class="on" d="M328.8,402.3c-14.5,0-20-7.6-20-24.2c0-16.6,5.4-24.3,20-24.3c14.5,0,19.8,7.7,19.8,24.3
+              C348.6,394.6,343.3,402.3,328.8,402.3z M328.8,392.1c5.2,0,7.5-2.5,7.5-14.1s-2.3-14.2-7.5-14.2c-5.2,0-7.5,2.6-7.5,14.2
+              C321.3,389.5,323.6,392.1,328.8,392.1z"></path>
+                  <path class="on" d="M378.2,379.3c0.9,2.2,1.8,4.8,2.6,7.6h0.1c-0.2-2.9-0.4-5.7-0.4-8.2l-0.1-24.2h10.6v47.1h-14.3L366,377.1
+              c-0.8-1.8-1.8-4.8-2.5-7.5h-0.1c0.3,2.7,0.4,6,0.4,8.6l0.1,23.4h-10.8v-47.1h14.7L378.2,379.3z"></path>
+          </g>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+
     
 
-    <script src="/assets/vendor.js"></script>
-    <script src="/assets/f1-web.js"></script>
+    <script src="/assets/vendor-c2fad0a854ac3fdbeb25ef8163b39e7a.js"></script>
+    <script src="/assets/f1-web-24a2aa1d9815b403c16be6a0b6a6425e.js"></script>
 
-    
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script><div class="cm__cookie__banner">
+  <div id="cookie-banner"></div>
+</div>
+<!-- <div id="cookie_Preference"></div> -->
+<noscript>
+  <img src="https://ad.doubleclick.net/ddm/activity/src=8415160;type=blf1c0;cat=blf1f00a;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1;num=1?" width="1" height="1" alt=""/>
+</noscript>
+
+<script src="/sw-registration-5c784166ca17981ce57928458045d45d.js"></script>
   </body>
 </html>

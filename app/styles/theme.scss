@@ -1,0 +1,120 @@
+$theme: (
+  theme: (
+    navigation-drawer__menu__item__sign-up: "secondary",
+  ),
+
+  background-color: (
+    fa-radio-list__item--selected: #E1060017,
+
+    navigation-drawer__content: color(app, primary),
+    navigation-drawer__menu__item--line-divider: rgba(#fff, 0.4),
+    notice: #FFDFDE,
+  ),
+
+  border-color: (
+    fa-radio-list__item--selected: #E10600,
+    notice: #E10600,
+  ),
+
+  border-right: (
+    navigation-drawer__content: none,
+  ),
+
+  color: (
+    navigation-drawer__menu__item__action: #fff,
+    navigation-drawer__menu__item--active__icon: #fff,
+
+    starred-heading__icon: #E10600,
+    starred-heading__title: color(grey, 900),
+  ),
+
+  font-family: (
+    menu__header__label: $font-family,
+
+    navigation-drawer__menu__item__label: $font-family--heading,
+
+    tab-bar--pill--sm__tab-bar__item__label: $font-family,
+  ),
+
+  font-size: (
+    app-announcement-modal__heading: 25px,
+    app-announcement-modal__message: 17px,
+
+    app-bar__item__label: 13px,
+
+    app-technical-issue-modal__body__heading: 25px,
+    app-technical-issue-modal__body__message: 17px,
+
+    app-bar__heading__title: 14px,
+    app-bar__heading__title--theme-fantasy-account: 18px,
+
+    app-maintenance__heading: 42px,
+    app-maintenance__message: 14px,
+
+    insignia__label: 11px,
+    insignia--xxl__insignia__label: 32px,
+
+    navigation-drawer__menu__item__label: 13px,
+
+    notice__heading: 18px,
+    panel__app__announcement__heading: 32px,
+
+    sidebar__pane__header__heading: 14px,
+    sidebar__pane__headers__item__button: 11px,
+
+    streaks-bar__label: 11px,
+
+    tooltip__label: 13px,
+
+    web__header--title: 32px,
+  ),
+
+  font-weight: (
+    app-bar__heading__title: $font-weight-bold,
+
+    navigation-drawer__menu__item__label: $font-weight-regular,
+
+    sidebar__pane__headers__item__button: $font-weight-semi-bold,
+
+    streaks-bar__label: $font-weight-semi-bold,
+
+    tab-bar--pill__item--selected__label: $font-weight-semi-bold,
+    text-field-filled__helper-text: $font-weight-bold,
+  ),
+
+  height: (
+    summary-box--wildcards-played: 305px,
+  ),
+
+  justify-content: (
+    app-bar__container--theme-fantasy-account: left,
+  ),
+
+  left: (
+    app-bar__back-button--theme-fantasy-account: 0,
+    app-bar__back-button--md--theme-fantasy-account: 0,
+  ),
+
+  line-height: (
+    insignia__label: 13px,
+    insignia--xxl__insignia__label: 32px,
+
+    menu__header__label: 16px,
+
+    navigation-drawer__menu__item__label: 17px,
+
+    notice__heading: 20px,
+
+    tooltip__label: 15px,
+
+    turbo-booster-modal__modal__aside__heading: 17px,
+  ),
+
+  opacity: (
+    app-bar__back-button--theme-fantasy-account: 1.0,
+  ),
+
+  position: (
+    app-bar__back-button--theme-fantasy-account: relative,
+  ),
+);

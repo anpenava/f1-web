@@ -3,18 +3,102 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>F1Web</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>F1 Fantasy</title>
+    <meta name="description" content="Play against your friends to see who knows most about F1®">
+    <meta property="og:site_name" content="F1 Fantasy">
+    <meta property="og:title" content="F1 Fantasy">
+    <meta property="og:description" content="Play against your friends to see who knows most about F1®">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{content-for 'base-url'}}images/branding/formula-1/social.jpg" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:url" content="{{rootURL}}" />
+
+    <meta name=”twitter:card” content="summary" />
+    <meta property="twitter:image" content="{{content-for 'base-url'}}images/branding/formula-1/social.jpg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+    <meta name="msapplication-config" content="{{rootURL}}browserconfig.xml" />
 
     {{content-for "head"}}
 
+    <link rel="manifest" href="{{rootURL}}manifest.webmanifest" />
+
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/fonts/fontawesome/css/brands.min.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/fonts/fontawesome/css/light.min.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/fonts/fontawesome/css/regular.min.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/fonts/fontawesome/css/solid.min.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/fonts/fontawesome/css/fontawesome.min.css">
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/fonts/playon/css/all.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap">
+
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/f1-web.css">
+<!-- Google Tag Manager -->
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '&gtm_auth=Ny6Q5jrVG0P4RSXoB4osbg&gtm_preview=env-33&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P69PN95');</script> -->
+<!-- End Google Tag Manager -->
 
     {{content-for "head-footer"}}
+
+    <link rel="preload" href="{{rootURL}}assets/vendor.js" as="script">
+    <link rel="preload" href="{{rootURL}}assets/f1-web.js" as="script">
+    <style>
+       body:not(.playon-application--loading) #app-loading {
+        display: none;
+      }
+
+      body:not([class]) #app-loading {
+        display: flex;
+      }
+
+      #app-loading {
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #app-loading > .powered-by {
+        color: #BDBDBD;
+        width: 120px;
+        margin-top: auto;
+      }
+
+      #app-loading > .powered-by > .powered-by__label {
+        font-size: 10px;
+        line-height: 11px;
+        margin-right: 6px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      #app-loading > svg {
+        width: 300px;
+        max-width: 100%;
+        position: relative;
+        margin-top: auto;
+        padding-top: 30px;
+      }
+
+      #app-loading > .circular-progress {
+        margin-top: 30px;
+      }
+    </style>
   </head>
-  <body>
+  <body class="playon-application--loading">
+<!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P69PN95&gtm_auth=Ny6Q5jrVG0P4RSXoB4osbg&gtm_preview=env-33&gtm_cookies_win=x"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->     
+    {{content-for "loading"}}
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>

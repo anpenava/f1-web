@@ -1,0 +1,13 @@
+global:
+  first:
+    heading: 1° Premio
+    text: Vince 2 pass Paddock Club per un Gran Premio del 2021
+    description: "*Si applicano restrizioni, idoneo solo per le seguenti gare : Cina, Baku, Canada, Austria, Ungheria, Belgio, Russia, Giappone, USA."
+  second:
+    heading: 2° Premio
+    text: 2x biglietti Tribuna e Pass Paddock per un Gran Premio del 2021
+    description: "** escluse Australia, Vietnam, Spagna, Monaco, Italia, Singapore e Brasile."
+  third:
+    heading: 3° Premio
+    text: F1TV Pro o Accesso a seconda del territorio .
+    description: "*** Nelle regioni in cui F1® TV Pro non è disponibile, questo verrà sostituito con un abbonamento di 12 mesi a F1® TV Access."

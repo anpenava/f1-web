@@ -1,0 +1,12 @@
+@include logo-theme(app-bar, (default: #fff));
+@include logo-theme(navigation-drawer, (default: #fff));
+@include logo-theme(web-footer, (default: #fff));
+@include logo-theme(primary, (default: #fff));
+@include logo-theme(branded-snackbar, (default: #fff));
+@include logo-theme(branded-modal-aside, (default: #fff));
+@include logo-theme(colorful, (default: #E10600, letters: #15151E));
+@include logo-theme(colorful-dark, (default: #E10600, letters: #15151E));
+@include logo-theme(colorful-light, (default: #E10600, letters: #fff));
+@include logo-theme(maintenance, (default: #fff));
+@include logo-theme(release-countdown, (default: #fff));
+@include logo-theme(app-loading, (default: #E10600, letters: #15151E));

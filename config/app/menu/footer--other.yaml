@@ -1,0 +1,24 @@
+-
+  type: route
+  route: web.game-rules
+  labelKey: menu.footer.game-rules
+
+-
+  type: route
+  route: web.points-scoring
+  labelKey: menu.footer.points-scoring
+
+-
+  type: route
+  route: web.prizes
+  labelKey: menu.footer.prizes 
+
+-
+  type: route
+  route: web.faq
+  labelKey: menu.footer.faq  
+  
+-
+  type: route
+  route: web.what-is-new
+  labelKey: menu.footer.what-is-new

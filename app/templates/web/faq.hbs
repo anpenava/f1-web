@@ -1,0 +1,69 @@
+<ScrollViewAnimated @transitions={{this.scrollTransitions}}>
+  <div class="web web__faq web__stick-top">
+    <BoldHeading @tag="h1" @title={{t "web.faq.title"}} @modifier="web main" />
+  </div>
+
+  <div class="web web__page">
+    <AccordionPanel class="web__page--accordion">
+      <:header as | Header |>
+        <Header class="web__page--accordion__header">
+          <:default>{{t "web.faq.signing.header"}}</:default>
+          <:right-icon as | Icon |><Icon /></:right-icon>
+        </Header>
+      </:header>
+
+      <:body as | Body |>
+        <Body class="web__page--accordion__body">
+          {{t "web.faq.signing.content" htmlSafe=true}}
+        </Body>
+      </:body>
+    </AccordionPanel>
+
+    <AccordionPanel class="web__page--accordion">
+      <:header as | Header |>
+        <Header class="web__page--accordion__header">
+          <:default>{{t "web.faq.teams.header"}}</:default>
+          <:right-icon as | Icon |><Icon /></:right-icon>
+        </Header>
+      </:header>
+
+      <:body as | Body |>
+        <Body class="web__page--accordion__body">
+          {{t "web.faq.teams.content" htmlSafe=true}}
+        </Body>
+      </:body>
+    </AccordionPanel>
+
+    <AccordionPanel class="web__page--accordion">
+      <:header as | Header |>
+        <Header class="web__page--accordion__header">
+          <:default>{{t "web.faq.leagues.header"}}</:default>
+          <:right-icon as | Icon |><Icon /></:right-icon>
+        </Header>
+      </:header>
+
+      <:body as | Body |>
+        <Body class="web__page--accordion__body">
+          {{t "web.faq.leagues.content" htmlSafe=true}}
+        </Body>
+      </:body>
+    </AccordionPanel>
+
+    <AccordionPanel class="web__page--accordion">
+      <:header as | Header |>
+        <Header class="web__page--accordion__header">
+          <:default>{{t "web.faq.contact-us.header"}}</:default>
+          <:right-icon as | Icon |><Icon /></:right-icon>
+        </Header>
+      </:header>
+
+      <:body as | Body |>
+        <Body class="web__page--accordion__body">
+          {{t "web.faq.contact-us.content" htmlSafe=true}}
+        </Body>
+      </:body>
+    </AccordionPanel>
+  </div>
+
+  <WebFooter />
+</ScrollViewAnimated>

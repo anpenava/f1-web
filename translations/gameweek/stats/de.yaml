@@ -1,0 +1,9 @@
+attrs:
+  player_display_name: Fahrer
+  player_score: Ergebnis
+  player_season_score: Saisonergebnis
+  player_team_name: Mannschaft
+  player_team_abbreviation: Konstrukteur
+  team_name: Mannschaft
+  team_score: Punkte
+  team_value: Gesamtwert

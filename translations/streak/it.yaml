@@ -1,0 +1,17 @@
+initial:
+  qualifying_streak_event_progress: Q
+  race_streak_event_progress: G
+  top-ten-in-a-row-qualifying: Q
+  top-ten-in-a-row-race: G
+
+sorter:
+  qualifying_streak_event_progress: Q Serie
+  race_streak_event_progress: C Serie
+  top-ten-in-a-row-qualifying: Q Serie
+  top-ten-in-a-row-race: G Serie
+
+tooltip:
+  qualifying_streak_event_progress: Serie di qualificazioni
+  race_streak_event_progress: Serie di gara
+  top-ten-in-a-row-qualifying: Serie di qualificazioni
+  top-ten-in-a-row-race: Serie di gara

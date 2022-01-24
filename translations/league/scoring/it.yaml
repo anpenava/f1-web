@@ -1,0 +1,109 @@
+qualifying:
+  title: Qualifica
+  events:
+    1:
+      name: Q1 Fine
+    2:
+      name: Q2 Fine
+    3:
+      name: Q3 Fine
+    4:
+      name: Qualificato prima del compgano di squadra (solo il pilota)
+    5:
+      name: Non si è qualificato (solo il pilota)
+    6:
+      name: Squalifica dalle qualifiche (solo il pilota)
+qualifying-position-bonuses:
+  title: Bonus qualificanti per la posizione
+  events:
+    1:
+      name: Pole position
+    2:
+      name: 2° posto
+    3:
+      name: 3° posto
+    4:
+      name: 4° posto
+    5:
+      name: 5° posto
+    6:
+      name: 6° posto
+    7:
+      name: 7° posto
+    8:
+      name: 8° posto
+    9:
+      name: 9° posto
+    10:
+      name: 10° posto
+race:
+  title: Gara
+  events:
+    1:
+      name: Gara finita
+    2:
+      name: Gara finita, posizione guadagnata (per posto guadagnato, max. +10 pt)
+    3:
+      name: Finito prima del compagno di squadra  (solo il pilota)
+    4:
+      name: Giro più veloce (solo il pilota)
+    5:
+      name: Gara iniziata nella Top 10, gara finita ma posizione persa (per posizione persa, max. -10 pt)
+    6:
+      name: Gara iniziata fuori la Top 10, gara finita ma posizione persa (per posizione persa, max. -5 pt)
+    7:
+      name: Non classificato (solo il pilota)
+    8:
+      name: Squalifica dalla gara (solo il pilota)
+  note:
+    "
+      <p>
+        <strong>* Posizioni guadagnate:</strong> Le posizioni guadagnate si basano sulla posizione che un pilota inizia sulla griglia
+      </p>
+
+      <p>
+        <strong>** Classification: </forte>
+        Le macchine che hanno percorso il 90% del numero di giri percorsi dal vincitore (arrotondato al numero intero di giri più vicino) saranno considerate di aver terminato la gara. Le macchine che hanno percorso meno del 90% del numero dei giri percorsi dal vincitore (arrotondando al numero intero di giri più vicino), non saranno classificate. Le classifiche si basano sulle decisioni della FIA 
+      </p>
+    "
+finishing-position-bonuses:
+  title: Bonus posizione finale
+  events:
+    1:
+      name: 1° posizione
+    2:
+      name: 2° posizione
+    3:
+      name: 3° posizione
+    4:
+      name: 4° posizione
+    5:
+      name: 5° posizione
+    6:
+      name: 6° posizione
+    7:
+      name: 7° posizione
+    8:
+      name: 8° posizione
+    9:
+      name: 9° posizione
+    10:
+      name: 10° posizione
+streaks:
+  title: Serie
+  events:
+    1:
+      name: Qualifiche del pilota - il pilota si qualifica nella Top 10 per 5 gare di fila
+    2:
+      name:  Gara del pilota - il pilota finisce la gara nella Top 10 per 5 gare di fila
+    3:
+      name: Qualifiche costruttori - entrambi i piloti si qualificano nella Top 10 per 3 gare di fila
+    4:
+      name: Gara dei costruttori - entrambi i piloti finiscono la gara nella Top 10 per 3 gare di fila
+  note:
+    "
+      <p>
+        * Quando un pilota o un costruttore raggiungono una serie di vittorie, quella serie verrà resettata e dovrà essere costruita di nuovo. .
+        For example: Un pilota raggiunge cinque top ten di fila. Gli verranno assegnate una serie di vittorie, ma deve raggiungere altre cinque top ten di fila per ottenere punti di serie per la seconda volta .
+      <p>
+    "

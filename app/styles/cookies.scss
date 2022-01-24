@@ -1,0 +1,41 @@
+#cookie_Preference {
+  #teconsent {
+    cursor: pointer;
+    height: 25px;  
+    opacity: 0;
+    position: absolute;
+    top: 0;    
+  }
+}
+
+body.playon-application--loading {
+  .cm__cookie__banner {
+    display: none;
+  }
+}
+
+body:not(.playon-application--loading) {
+  overflow: auto;
+
+  .cm__cookie__banner {
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+    bottom: -500px;
+    animation: animation-enter(cm__cookie__banner, 0.4s, 3s) forwards;
+
+    #consent_blackbar {
+      overflow: auto;
+    }    
+  }
+}
+
+@keyframes cm__cookie__banner {
+  0% {
+    bottom: -500px;
+  }
+
+  100% {
+    bottom: -1px;
+  }
+}

@@ -1,0 +1,12 @@
+step:
+  mega-player:
+    description: Il {boosterName} consente a un pilota di ottenere {multiplier}x punti. Ottieni due riproduzioni {boosterName} per stagione.
+
+  scoring:
+    description: I giocatori ottengono punti in base a diversi fattori come la posizione di qualificazione, la posizione di gara, il compagno di squadra battuto e altri come descritto nella pagina dei Punteggi.
+
+  team:
+    description: Usa I tuoi $100m per selezionare 5 piloti e 1 costruttore.
+
+  turbo-player:
+    description: Seleziona un pilota come {boosterName} che ottiene {multiplier}x punti.

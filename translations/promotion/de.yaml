@@ -1,0 +1,30 @@
+promotion-1:
+  heading: Einen Freund einladen
+
+  entered:
+    call-to-action: Schließen
+    message: "
+     Sie haben jetzt {entries}/5 kostenlose Gewinnspieleinträge.
+    "
+    title: Jemand ist deiner Einladung der Freunde-Liga beigetreten
+
+  not-entered:
+    call-to-action: Private Liga erstellen
+    message: "
+      <p>
+        Erstelle eine private Liga aus Bahrain - Abu Dhabi.
+        Laden Sie 5 Freunde ein, die neu in F1 Fantasy sind, und holen Sie sich
+        Ein Gewinnspiel pro neuem Benutzer - maximal 5 Einsendungen pro Person.
+      </p>
+    "
+    title: Gewinnen Sie eine signierte Lewis Hamilton-Kappe!
+
+promotion-middle-east-league:
+  heading: Nahe Osten Liga
+
+  not-entered:
+    call-to-action: Jetzt beitreten
+    message: "<p>Treten Sie der Nahe Osten Liga bei.</p>"
+    title: Gewinnen Sie eine signierte Kimi Räikkönen Mütze!
+
+agreement: Allgemeine Geschäftsbedingungen

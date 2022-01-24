@@ -1,0 +1,12 @@
+step:
+  mega-player:
+    description: Le {boosterName} permet à un pilote de marquer {multiplier}x points. Vous avez deux utilisations du {boosterName} par saison.
+
+  scoring:
+    description: Les pilotes/constructeurs marquent des points en fonction de plusieurs facteurs tels que la position de qualification, la position de course, le fait de battre son coéquipier et d’autres facteurs détaillés dans la page Marquage de points.
+
+  team:
+    description: Utilisez vos $100m pour sélectionner 5 pilotes et 1 constructeur.
+
+  turbo-player:
+    description: Sélectionnez un pilote pour devenir votre {boosterName} qui marquera {multiplier}x points.

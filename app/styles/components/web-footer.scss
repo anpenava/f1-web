@@ -1,0 +1,15 @@
+.web-footer {
+  &__logo {
+  	height: 18px;
+  }
+
+  &__anchor {
+  	background-color: color(app, primary);
+  	color: #fff;
+  }
+
+  &__heading {
+  	font-family: $font-family--web-heading;
+  	font-size: 14px;
+  }  
+}

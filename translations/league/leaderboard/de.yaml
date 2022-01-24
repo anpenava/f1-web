@@ -1,0 +1,7 @@
+processing:
+  weekly: Die Bestenlisten werden nach Ende der Rennwoche aktualisiert.
+empty:
+  default: Die ausgewählte Rennwoche hat noch nicht begonnen. Die Bestenlisten für jede Rennwoche werden am Ende jeder Rennwoche aktualisiert. Sie können vor Beginn jeder Rennwoche Änderungen an Ihren Teams vornehmen.
+  live: Die ausgewählte Rennwoche hat bereits begonnen. Die Bestenlisten für jede Rennwoche werden am Ende jeder Rennwoche aktualisiert.
+  my-rankings: Sie haben für diese Rennwoche keine Teams angemeldet.
+  verified-rankings: Es gibt keine verifizierten Teilnehmer für diese Rennwoche.

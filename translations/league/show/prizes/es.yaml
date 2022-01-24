@@ -1,0 +1,13 @@
+global:
+  first:
+    heading: 1er premio
+    text: Gana 2 entradas al Club Paddock al Grand Prix 2021
+    description: "* Aplican restricciones, elegible solamente para la siguientes carreras: China, Baku, Canadá, Austria, Hungria, Bélgica, Rusia, Japón, Estados Unidos."
+  second:
+    heading: 2do premio
+    text: 2 entradas de tribuna y Paddock al Grand Prix 2021
+    description: "** excluye Australia, Vietnam, España, Mónaco, Italia, Singapur y Brasil."
+  third:
+    heading: 3er premio
+    text: F1TV Pro o Access dependiendo del territorio.
+    description: "*** En regiones donde F1® TV Pro no está disponible este premio será reemplazado con una suscripción de 12 meses a F1® TV Access."

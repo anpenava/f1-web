@@ -1,0 +1,22 @@
+attrs:
+  player_display_name: Driver
+  player_score: Score
+  player_season_score: Season score
+  player_team_name: Team
+  player_team_abbreviation: Constructor
+  team_name: Team
+  team_score: Points
+  team_value: Total value
+  boosted_count: Turbo Driver Plays
+  boosted_percentage: "% of Turbo Driver Plays" 
+  mega_boosted_count: Mega Driver Plays
+  mega_boosted_percentage: "% of Mega Driver Plays"
+  race_streak_event_progress: Race Streak
+  qualifying_streak_event_progress: Qualifying Streak
+  score: Points
+  boosted: Turbo Driver
+  mega_boosted: Mega Driver
+positions:
+  all-positions: All
+  driver: Driver
+  constructor: Constructor

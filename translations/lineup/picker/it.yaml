@@ -1,0 +1,20 @@
+messages:
+  saved:
+    default: La tua squadra è stata salvata. Adesso hai {substitutions, plural, =1 { 1 sostituzione } other {# sostituzioni}} rimanente nella tua Subs Bank per questa settimana di gioco.
+
+substitutions:
+  confirm-dialog:
+    message:
+      free: Tu stai facendo {substitutions, plural, =1 { 1 sostituzione } other {# sostituzioni}} alla tua squadra, lasciandoti con una Subs Bank di {substitutions, plural, =1 { 1 sostituzione } other {# sostituzioni}} rimanenti per questa settimana di gara.
+      paid: You are making {substitutions, plural, =1 { 1 substitution } other {# substitutions}} to your team which will incur a penalty of {points} pts. You have a Subs Bank of {remaining, plural, =1 {1 substitution} other {# substitutions}} remaining this raceweek.
+
+whats-next-dialog:
+  title: Cosa c''è dopo?
+  message: La tua squadra è stata creata e unita ai campionati Globali, Costruttore e Campionato nazionale. Ora puoi creare un campionato per te e i tuoi amici.
+  button: OK
+
+tooltip:
+  average-budget: Budget medio rimanente per conducente / costruttore
+
+team-value:
+  tooltip: Variazione del valore totale nella settimana di gara corrente

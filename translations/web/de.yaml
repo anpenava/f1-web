@@ -1,0 +1,561 @@
+homepage:
+  title: Das offizielle Formel 1 <br class=''web__break''>Fantasy Spiel
+  pick-team:
+    title: Erstelle bis zu 3 Teams
+    text: Wählen Sie Ihr Team aus 5 Fahrern und 1 Konstrukteur <br class=''web__break''>unter dem Budget von 100 Millionen Dollar.
+  button:
+    play-now: Jetzt spielen
+    sign-up: Anmelden
+    pick-a-team: Wählen Sie ein Team
+  join:
+    title: Treten Sie in einer Liga bei oder erstelle Sie ihre eigene
+    text: Verdienen Sie in einer privaten Liga prahlerische Rechte gegen Familie und Freunde und erobere die Welt in unseren öffentlichen Ligen
+    button:
+      play-now: Jetzt spielen
+  prizes:
+    title: Preise
+    text: Werden Sie Champion in unserer Global League und gewinnen Sie ein VIP Paddock Club-Erlebnis für 2 bis 2021 Grand Prix
+  official-daily-fantasy:
+    title: Denken Sie, Sie kennen F1®?
+    text: Gewinnen Sie groß mit Täglich Fantasy F1®, exklusiv mit PlayON
+    button:
+      play-daily-fantasy: SPIEL TÄGLICH FANTASY
+  dynamic-pricing:
+    title: Dynamische Preisgestaltung
+    text: Nutzen Sie die Preisänderungen für Spieler/Konstrukteure in Echtzeit, um Ihr Budget von 100 Mio. USD zu erhöhen
+  subs-bank:
+    title: Subs Bank
+    text: "Machen Sie bis zu 3 Auswechslungen für <br class=''web__break''>kostenlos jede Rennwoche."
+  what-is: Was ist Ihre tägliche Fantasy
+leagues:
+  title: Ligen
+  create-your-league: Erstelle Sie Ihre Liga
+  invite-your-friends: Laden Sie Ihre Freunde ein
+  text1: Erstelle Sie Ihre Liga für sich und Ihre Freunde und spielen Sie mit anderen F1®-Fans aus der ganzen Welt in öffentlichen Ligen in der Lobby.
+  text2: F1® Fantasy ist besser mit Freunden.
+  text3: Laden Sie Ihre Freunde ein, sich Ihrer privaten Liga anzuschließen.
+  text4: Erstellen Sie zunächst Ihre eigene private Liga für Sie und Ihre Freunde.
+  text5: Schließen Sie sich einigen der vielen an
+  text6: öffentliche Ligen in der Lobby
+  text7: Erfahren Sie mehr über F1® Fantasy.
+  button:
+    play-now: Jetzt spielen
+daily-fantasy:
+  title: Täglich F1® Fantasy
+  play-and-win: Spielen und gewinnen Sie am selben Tag
+  text1: "Jetzt können Sie jeden Tag ein neues Fantasy-Team  <br> der Formel-1® Saison auswählen."
+  text2: Jeden Tag neue Ligen
+  text3: Sie sind nie mehr als einen Tag von einem Neuanfang entfernt.
+  text4: "Daily Fantasy ist die nächste Generation von Fantasy-Spielen:"
+  text5: Erfahren Sie mehr über Offizielles Tägliches Fantasy F1®
+  button:
+    get-started: Jetzt loslegen
+    play-now: Jetzt spielen
+    how-to-play: Spielanleitung
+fantasy:
+  title1: Fantasy
+  title2: Boosters
+  title3: Turbo Fahrer
+  title4: Spielen Sie Ihre Wildcards richtig
+  title5: Live Erfahrung
+  text1: Erstelle Sie ihre eigene Liga für sich und ihre Freunde und spielen Sie gegen andere Formel-1-Fans aus der ganzen Welt in öffentlichen Ligen.
+  text2: Verdoppeln und verdreifachen Sie Ihre Fahrerpunkte mithilfe Ihrer Booster.
+  choose-your-captain: "Wählen Sie Ihren Turbotreiber <span class=''web__stripped-panel--box__card__c-highlighted''>jede Rennwoche</span>, <br class=''web__break''>erzielt doppelte Punkte"
+  booster: "Mega Fahrer"
+  booster-pick: Wählen Sie Ihren Mega Fahrer und erzielen Sie <br class=''web__break''>dreifache Punkte. <span class=''web__stripped-panel--box__card__sc-highlighted''>Sie haben nur 2 Spiele pro Saison.</span>
+  text6: Die Wildcard ermöglicht es Ihnen, bis zu 12 Auswechslungen kostenlos in der Rennwoche zu machen, die Sie spielen.
+  text7: Sie erhalten 2 Wildcards pro Saison.
+  text8: Beobachten Sie, wie Ihre Spieler in Echtzeit Punkte sammeln.
+  text9: Erfahren Sie mehr über F1® Fantasy.
+  button:
+    play-now: Jetzt spielen
+    pick-a-team: Wählen Sie ein Team
+dynamic-pricing:
+  title: Dynamische Preisgestaltung
+  text: Die Preise für Fahrer und Konstrukteure ändern sich nun kontinuierlich. <br class=''web__break''> basiert auf Hinzufügungen und Entfernungen aller Teams. Dies bedeutet, dass Sie <br class=''web__break''> Fahrer zu Ihrem Team hinzufügen und daraus entfernen können, um <br class=''web__break''> Ihr Budget auf über 100 Mio. USD zu erhöhen.
+  labels:
+    new: Neu
+  panel-1:
+    title: Kontinuierlicher Preis <br class=''web__break''> Änderungen
+    text: Sobald die Qualifikation für den ersten Grand Prix beginnt, ändern sich die Preise für Fahrer und Konstrukteure <br class=''web__break''> basierend auf Hinzufügungen und Entfernungen aus allen Teams.
+    text2: Die Preise ändern sich dann kontinuierlich, sodass Sie die Preise Ihrer Fahrer <br class=''web__break''> und Konstrukteure überwachen und entscheiden können, ob Sie die Preisänderung <br class=''web__break''> an Ihr verfügbares Budget anpassen möchten.
+  panel-2:
+    title: Wöchentliche Preisbewegung
+    text: Preisbewegungen in der aktuellen Rennwoche werden neben dem Fahrer dargestellt und <br class=''web__break''> Konstruktorpreis - grün zeigt an, um wie viel der Preis gestiegen ist, rot <br class=''web__break''> zeigt an, um wie viel der Preis gesunken ist .
+  panel-3:
+    title: Stimmungsbalken
+    text: Der Stimmungsbalken zeigt die Wahrscheinlichkeit der nächsten Preisbewegung von 0,1 Mio. USD an. <br class=''web__break''> Grün zeigt an, dass der Preis wahrscheinlich als nächstes steigen wird, Rot zeigt an, dass der Preis <br class=''web__break''> wahrscheinlich als nächstes sinken wird.
+  panel-4:
+    title: Gesamtwert
+    text: Wenn sich der Preis Ihrer Fahrer und Konstrukteure im Laufe der Zeit ändert, wirkt sich dies auf den Gesamtwert Ihres Teams aus. <br class=''web__break''>Der Gesamtwert ist der aktuelle Wert Ihrer Treiber und des Konstruktors <br class=''web__break''> zuzüglich Ihres verbleibenden Budgets.
+  panel-5:
+    title: Übriges Budget
+    text: Jeder beginnt mit einem Budget von 100 Millionen Dollar. Wenn Sie Ihrem Team einen Fahrer hinzufügen <br class=''web__break''>, dessen Preis 15,0 Mio. USD beträgt und dessen Preis jetzt 25,0 Mio. USD beträgt, beträgt Ihr Gesamtwert <br class=''web__break''> 110,0 Mio. USD. Wenn Sie diesen Fahrer dann aus Ihrem Team entfernen, sichern Sie sich die Preiserhöhung von <br class=''web__break''> um 10,0 Mio. USD, die Ihrem verbleibenden Budget hinzugefügt wird, sodass Sie <br class=''web__break''> mehr Geld ausgeben können Ihr nächster Fahrer.
+  button:
+    play-now: Jetzt spielen
+    read-more: Weiterlesen
+prizes:
+  title: Preise
+  tab-overall:
+    first:
+      heading: 1. Preis
+      text: Gewinnt 2x Paddock Club Pässe für einen Grand Prix 2022
+      description: "* ohne den Grand Prix in Singapur, Australien, Zandvoort, Monaco und Abu Dhabi. Weitere Informationen finden Sie in den <a class=''web__link'' href=''/terms-and-conditions''>Allgemeinen Geschäftsbedingungen.</a>"
+    second:
+      heading: 2. Preis
+      text: 2x Tribünenkarten und Paddock-Pässe für einen Grand Prix 2022
+      description: "** ohne den Grand Prix in Singapur, Australien, Zandvoort, Monaco und Abu Dhabi. Weitere Informationen finden Sie in den Allgemeinen Geschäftsbedingungen."
+    third:
+      heading: 3. Preis
+      text: F1TV Pro oder Access je nach Gebiet
+      description: "*** In Regionen, in denen F1® TV Pro nicht verfügbar ist, wird dies durch ein 12-monatiges Abonnement für F1® TV Access ersetzt. Weitere Informationen finden Sie in den <a class=''web__link'' href=''/terms-and-conditions''>Allgemeinen Geschäftsbedingungen.</a>"
+  tab-weekly:
+    first:
+      heading: Top Punkte
+      text: Die Person mit dem Team mit der höchsten Punktzahl pro Woche gewinnt ein F1®-Team-T-Shirt.
+      description: "Weitere Informationen finden Sie in den <a class=''web__link'' href=''/terms-and-conditions''> Allgemeinen Geschäftsbedingungen </a>"
+  tab-mini-leagues:
+    first:
+      heading: Gewinnen Sie eine signierte Kappe
+      text: Die Person mit der höchsten Punktzahl in jeder offiziellen F1®-Miniliga gewinnt eine unterschriebene F1®-Kappe.
+  tab-more:
+    first:
+      heading: Beobachten Sie die Lobby
+      text: Behalten Sie die Ligenlobby für andere Ligen im Auge, die während der gesamten Saison Preise erhalten
+  note: "Nur Ihr Team 1 wird in die globale, Konstrukeur- und Länderliga aufgenommen. Dies dient dazu, gleiche Wettbewerbsbedingungen für alle Benutzer zu gewährleisten, einschließlich derer, die nur ein einziges Team auswählen möchten. Aufgrund der örtlichen Spielregeln sind Benutzer aus den folgenden Ländern vom Gewinn von Preisen im F1® Fantasy-Spiel ausgeschlossen: Österreich, Brasilien, Kolumbien, Griechenland, Indonesien, Israel, Portugal, Südkorea, Türkei."
+  button:
+    play-now: Jetzt spielen
+    view-lobby: Lobby anzeigen
+subs-bank:
+  labels:
+    new: Neu
+  panel-1:
+    title: Subs Bank
+    text: Die Subs Bank ermöglicht es Ihnen, <span class=''text--bold''>bis zu 3 Auswechslungen kostenlos</span> <br class=''web__break''> jede Rennwoche zu machen.
+  panel-2:
+    title: Erweitern Sie Ihr Budget
+    text: Da sich die Preise aufgrund dynamischer Preise ständig ändern, können Sie <span class=''text--bold''><a href=''/dynamic-pricing'' target=''dynamic-pricing'' class=''web__link''>Dynamische Preisgestaltung</a>,</span> <span class=''text--bold''> <br class=''web__break''>Ihre Subs Bank verwenden, um Ihr Budget über 100 Mio. USD zu erhöhen.</span>
+  panel-3:
+    title: Wildcard
+    text: <span class=''text--bold''>Die Wildcard ermöglicht es Ihnen, bis zu 12 Auswechslungen kostenlos in der Rennwoche zu machen, die Sie spielen, <br class=''web__break''></span> so dass Sie ein vollständiges Team zurücksetzen und zusätzliche Auswechslungen machen können, <br class=''web__break''> um Ihr Budget zu vergrößern. Sie erhalten 2 Wildcards pro Saison.
+faq:
+  title: Häufig gestellte Fragen
+  signing:
+    header: Anmeldung
+    content:
+      "
+        <p class=''web__default-text''>
+         <strong>Wie melde ich mich an, um F1® Fantasy zu spielen?</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+        Erstellen Sie einfach ein F1®-Konto, indem Sie oben rechts auf Anmelden klicken. Sobald Sie Ihr F1®-Konto erstellt haben, können Sie F1® Fantasy spielen.
+        </p>
+      "
+  teams:
+    header: Teams
+    content:
+      "
+        <p class=''web__default-text''>
+          <strong>Kann ich beide Fahrer vom selben Konstrukteur und von diesem Konstrukteur auswählen?</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+          Die einzige Einschränkung besteht darin, unter dem Budget zu bleiben, das ursprünglich auf 100 Mio. USD festgelegt war. Solange Sie sich sowohl Fahrer als auch Konstrukteur leisten können, können Sie sie Ihrem Team hinzufügen.
+        </p>
+
+        <p class=''web__default-text''>
+          <strong>Kann ich mehr als ein Team haben?</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+          Sie können bis zu drei F1® Fantasy-Teams auswählen, die Sie während der gesamten Saison verwalten können.
+        </p>
+
+        <p class=''web__default-text''>
+          <strong>Was ist der Turbo Fahrer?</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+          Sie müssen für jedes Rennen einen Fahrer als Turbo Fahrer auswählen. Turbo Fahrer ist ein Booster, der die vom ausgewählten Fahrer erzielten Punkte mit 2x multipliziert. Nur Fahrer mit einem Preis unter 20 Mio. USD können als Turbo Fahrer ausgewählt werden.
+        </p>
+
+        <p class=''web__default-text''>
+          <strong>Was ist der Mega Fahrer?</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+         Mega Fahrer ist ein Booster, der die vom ausgewählten Fahrer erzielten Punkte mit 3x multipliziert. Mega Fahrer kann auf jeden Fahrer angewendet werden, außer auf Ihren Turbo Fahrer. Es gibt keine Preisbeschränkung für Ihren Mega Fahrer. Sie haben zwei Mega Fahrer-Spiele pro Saison - eines für die europäischen Rennen (erste 8 Rennen) und eines danach.
+        </p>
+
+        <p class=''web__default-text''>
+          <strong>Was ist die Wildcard??</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+          Mit der Wildcard können Sie unbegrenzt Änderungen an Ihrem Team vornehmen, ohne dafür eine Strafe zu zahlen. Sie haben zwei Wildcard-Spiele pro Saison - eines für die europäischen Rennen (erste 8 Rennen) und eines danach.
+        </p>
+      "
+  leagues:
+    header: Ligen
+    content:
+      "
+        <p class=''web__default-text''>
+          <strong>Wie trete ich der Global F1 League bei, um um den Hauptpreis zu spielen?</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+          Wenn Sie Ihr Team 1 speichern, wird es automatisch der Global F1® League beigetreten. Nur Ihr Team 1 kann der Global F1® League beitreten.
+        </p>
+
+        <p class=''web__default-text''><strong>Wie erstelle ich eine private Liga für meine Freunde und mich?</strong></p>
+
+        <p class=''web__default-text web__gray-text''>
+          Wenn Sie Ihre erste Mannschaft gespeichert haben, klicken Sie auf die Seite \"Ligen\" und dann oben rechts auf die Schaltfläche \"Liga erstellen\". Richten Sie Ihre Liga ein und teilen Sie den Einladungscode mit Ihren Freunden.
+        </p>
+
+        <p class=''web__default-text''><strong>Wie trete ich einer privaten Liga bei?</strong></p>
+
+        <p class=''web__default-text web__gray-text''>
+          Sobald Sie ein Team gespeichert haben, können Sie einer privaten Liga beitreten. Wenn Sie den Liga-Code haben, geben Sie diesen einfach in den Beitritt mit einem Code-Link über der Ligen-Lobby ein. Es gibt auch viele öffentliche Ligen, in denen Sie der Lobby beitreten können.
+        </p>
+
+        <p class=''web__default-text''>
+          <strong>Wie lösche ich eine Liga?</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+          Sie können eine von Ihnen erstellte Liga löschen, wenn Sie der einzige Teilnehmer in der Liga sind. Um eine Liga zu löschen, gehen Sie einfach zur Registerkarte Ligen - Beitritt, klicken Sie auf die drei Punkte in der Liga, die Sie löschen möchten, und klicken Sie auf Liga löschen.
+        </p>
+
+        <p class=''web__default-text''>
+          <strong>Was kann ich gewinnen?</strong>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+          Es gibt viele Preise für die Global F1® League und andere Ligen. Alle Preise auf der Preisseite anzeigen<a class=''web__link'' href=''/prizes''>here</a>.
+        </p>
+      "
+  contact-us:
+    header: Kontaktieren Sie uns
+    content:
+      "
+        <p class=''web__default-text web__gray-text''>
+         Bei Problemen im Zusammenhang mit der Anmeldung, Anmeldung oder mit Ihrem F1-Konto senden Sie bitte eine E-Mail: <a class=''web__link'' href=''mailto:general@en.formula1.com''>general@en.formula1.com</a>
+        </p>
+
+        <p class=''web__default-text web__gray-text''>
+          Bei Problemen oder Vorschlägen im Zusammenhang mit dem Fantasy-Spiel senden Sie bitte eine E-Mail: <a class=''web__link'' href=''mailto:f1@playon.co''>f1@playon.co</a>
+        </p>
+      "
+terms-and-conditions:
+  title: Allgemeine Geschäftsbedingungen
+  introduction:
+    header: Einführung
+    content:
+      "
+        <p class=''web__default-text web__gray-text''>
+  Bitte lesen Sie diese Allgemeinen Geschäftsbedingungen (die „Allgemeinen Geschäftsbedingungen“) sorgfältig durch, bevor Sie F1® Fantasy verwenden. Ihr Zugriff auf und Ihre Nutzung von F1® Fantasy unterliegen diesen Allgemeinen Geschäftsbedingungen (einschließlich der Datenschutzrichtlinie von F1® Fantasy) sowie allen geltenden Gesetzen. Durch den Zugriff auf und die Verwendung von F1® Fantasy erklären Sie Ihr Einverständnis mit diesen Allgemeinen Geschäftsbedingungen. Diese Allgemeinen Geschäftsbedingungen können jederzeit geändert oder modifiziert oder neue Bedingungen auferlegt werden. Solche Änderungen oder Ergänzungen werden durch eine Aktualisierung dieser Seite berücksichtigt. Bitte überprüfen Sie diese Allgemeinen Geschäftsbedingungen regelmäßig auf Änderungen. Ihre fortgesetzte Nutzung von F1® Fantasy nach der Veröffentlichung von Änderungen dieser Allgemeinen Geschäftsbedingungen (einschließlich der Datenschutzrichtlinie) bedeutet, dass Sie diese Änderungen akzeptieren und dass diese Änderungen     für Ihre Nutzung von F1® Fantasy gelten, nachdem solche Änderungen veröffentlicht wurden.
+        </p>
+
+        <li>
+          1. Der Veranstalter von F1 Fantasy ist Formula One Digital Medial Limited, ein in England und Wales unter der Firmennummer 08915039 registriertes Unternehmen mit Sitz in St. James''s Market Nr. 2, London SW1Y 4AH, England(the “<strong>Promoter</strong>”).
+        </li>
+
+        <li>
+          2. F1 Fantasy steht registrierten Nutzern von Formula1.com offen. Die Teilnahme an F1 Fantasy steht sowohl britischen als auch nicht britischen Bewohnern ab 16 Jahren offen, sofern deren Betrieb und die Preise zulässig sind. Jeder Eintrag in F1 Fantasy ist ungültig, wenn der Betrieb gesetzlich verboten ist. Wenn Sie unter 18 Jahre alt sind, können für jeden Preis, den Sie erhalten, besondere Bedingungen gelten.
+        </li>
+
+        <li>
+          3. Mitarbeiter, Auftragnehmer oder Vertreter von Promoter, deren Gruppenunternehmen oder Familienmitglieder, freiberufliche Mitarbeiter, alle anderen mit F1 Fantasy verbundenen Personen und deren Familienmitglieder können an F1 Fantasy teilnehmen, sind jedoch nicht berechtigt, einen Preis zu gewinnen, und ihre Beiträge gelten als ungültig für die Zwecke der Ermittlung der Preisträger.
+        </li>
+
+        <li>
+          4. Mit der Eingabe von F1 Fantasy akzeptieren Sie diese Allgemeinen Geschäftsbedingungen (die „Allgemeinen Geschäftsbedingungen“). Diese Allgemeinen Geschäftsbedingungen gelten für alle Einträge in F1 Fantasy und ersetzen und löschen alle anderen Allgemeinen Geschäftsbedingungen in Bezug auf F1 Fantasy.
+        </li>
+
+        <li>
+          5. Die Regeln von F1 Fantasy unterliegen den Spielregeln, die unter <a class=''web__link'' href=''https://fantasy.formula1.com''> fantasy.formula1.com </a> verfügbar sind. Im Falle eines Widerspruchs zwischen einer der Bestimmungen dieser Allgemeinen Geschäftsbedingungen und den Spielregeln haben die Bestimmungen dieser Allgemeinen Geschäftsbedingungen Vorrang.</li>
+
+        <li>
+          6. Der Veranstalter behält sich das Recht vor, diese Allgemeinen Geschäftsbedingungen und/oder die Spielregeln nach eigenem Ermessen zu ändern, zu ergänzen oder anderweitig zu ändern. Der Veranstalter haftet nicht für solche Änderungen. Es wird empfohlen, diese Allgemeinen Geschäftsbedingungen und die Spielregeln von Zeit zu Zeit regelmäßig zu überprüfen.
+        </li>
+
+        <li>
+          7. Die Entscheidung des Veranstalters in Bezug auf oder in Verbindung mit diesen Allgemeinen Geschäftsbedingungen, den Spielregeln und deren Auslegung ist endgültig und liegt in seinem alleinigen Ermessen.
+        </li>
+
+        <li>
+          8. Zur Vermeidung von Zweifeln gelten die Nutzungsbedingungen von formel1.com für Ihre Nutzung von formula1.com (einschließlich zur Vermeidung von Zweifeln, <a class=''web__link'' href=''https://fantasy.formula1.com''>fantasy.formula1.com</a>).
+        </li>
+      "
+  entries:
+    header: 9. EINTRÄGE
+    content:
+      "
+        <ol class=''list--ordered''>
+          <li data-seq=''9.1''>
+            Um an F1 Fantasy teilnehmen zu können, müssen Sie die Teilnahmebedingungen gemäß Absatz 2 dieser Allgemeinen Geschäftsbedingungen erfüllen und Ihren Eintrag unter <a class=''web__link'' href=''https://fantasy.formula1.com''>fantasy.formula1.com</a>. Mit der Eingabe von F1 Fantasy bestätigen Sie, dass Sie dazu berechtigt sind. Der Veranstalter kann von Ihnen den Nachweis verlangen, dass Sie zur Teilnahme an F1 Fantasy berechtigt sind.
+          </li>
+
+          <li data-seq=''9.2''>
+            Es gibt keinen Einsendeschluss für die Teilnahme an F1 Fantasy. Es gelten jedoch Fristen (gemäß den Spielregeln), bis zu welcher Zeit Sie F1 Fantasy eingegeben haben müssen, um sich für Punkte zu qualifizieren, die in Bezug auf F1 Fantasy vergeben wurdenspecific race week.
+          </li>
+
+          <li data-seq=''9.3''>
+            Sie müssen sicherstellen, dass Sie im Zusammenhang mit Ihrem Einstieg in F1 Fantasy eine gültige E-Mail-Adresse angegeben und registriert haben. Ein Eintrag ohne gültige E-Mail-Adresse ist ungültig.
+          </li>
+
+          <li data-seq=''9.4''>
+            Für die Teilnahme an F1 Fantasy ist kein Kauf erforderlich, und der Kauf eines Artikels erhöht nicht Ihre Gewinnchance.
+          </li>
+
+          <li data-seq=''9.5''>
+            Pro Person ist nur ein Eintrag in F1 Fantasy zulässig. Beiträge im Namen einer anderen Person werden nicht akzeptiert und gemeinsame Einreichungen sind nicht zulässig. Spieler dürfen bis zu drei Teams in ihrem F1 Fantasy-Konto erstellen. Die Anzahl der Teams, die ein Spieler in eine einzelne Liga aufnehmen kann, wird jedoch von Zeit zu Zeit durch die Regeln dieser Liga bestimmt und beim Eintritt in die Liga festgelegt. Spieler dürfen nicht mehr Teams als die maximal zulässige Anzahl betreten.
+          </li>
+
+          <li data-seq=''9.6''>
+           Der Veranstalter übernimmt keine Verantwortung für Einträge, die verloren gehen, verzögert, fehlgeleitet, unvollständig sind oder aus technischen oder anderen Gründen nicht geliefert oder eingegeben werden können.
+          </li>
+
+          <li data-seq=''9.7''>
+            Der Veranstalter behält sich das Recht vor, vom Benutzer erstellte Namen (einschließlich Team- und/oder Liganamen), die vom Veranstalter als unangemessen erachtet werden und die den relevanten Spieler von F1 Fantasy aussetzen oder disqualifizieren und/oder beenden können, auszusetzen, zu löschen und/oder zu ändern Benutzerkonto, Team oder Liga ohne Vorankündigung. Unangemessene Namen können solche sein, die beleidigend sind und/oder die Rechte Dritter verletzen.
+          </li>
+        </ol>
+      "
+  prizes:
+    header: 10. PREISE
+    content:
+      "
+        <ol class=''list--ordered''>
+          <li data-seq=''10.1''>
+           Alle Preise, die in Bezug auf F1 Fantasy vergeben werden, sind nicht austauschbar, nicht übertragbar und können nicht gegen Bargeld oder andere Preise eingelöst werden. Sie dürfen nicht zum Verkauf oder zur Belohnung an Dritte angeboten werden.
+          </li>
+
+          <li data-seq=''10.2''>
+           Der Veranstalter behält sich das Recht vor, einen Preis zu ändern, zu ergänzen oder durch eine Alternative von ähnlichem Wert zu ersetzen, falls der ursprünglich angebotene Preis nicht verfügbar ist. Die Preise werden gemäß den vom Veranstalter festgelegten Kriterien vergeben.
+          </li>
+
+          <li data-seq=''10.3''>
+            Alle Preise unterliegen der Einhaltung der Bedingungen, die von Zeit zu Zeit mit dem jeweiligen Preis (oder einem Teil eines Preises) verbunden sind (unabhängig davon, ob die Bedingungen Dritter oder die Bedingungen des Veranstalters gelten), und der Veranstalter haftet nicht oder wird nicht gehalten verantwortlich für das Versäumnis oder die Unfähigkeit eines Gewinners oder seines eingeladenen Gastes, diese Allgemeinen Geschäftsbedingungen einzuhalten.
+          </li>
+
+          <li data-seq=''10.4''>
+            Die Preise beinhalten keine damit verbundenen Kosten oder Aufwendungen wie Internetverbindung, Reisen, Visa (oder andere Reisedokumente), Versicherungen, Transfers zu und von Flughäfen, Bahnhöfen oder Häfen, Essen und Trinken, Ausgaben oder persönliche Ausgaben. Alle anderen Kosten, die zusätzlich zu den oben genannten Kosten anfallen und mit der Erfüllung des Preises verbunden sind, gehen zu Lasten des Gewinners.
+          </li>
+
+          <li data-seq=''10.5''>
+            Für den Fall, dass ein Gewinner eines Preises gemäß diesem Absatz 10 jünger als 18 Jahre ist, kann der Veranstalter die Bedingungen auferlegen, die zumutbar sind, um sicherzustellen, dass die mit dem jeweiligen Preis verbundenen Bedingungen eingehalten werden. Beispielsweise muss jeder Gewinner von Paddock Club-Tickets, der jünger als 18 Jahre ist, zu jeder Zeit innerhalb des Paddock Club von einer Person über 18 Jahren begleitet und beaufsichtigt werden, und der Gewinner muss eines der zuerkannten Tickets dafür verwenden Person, um sicherzustellen, dass diese Bedingung erfüllt ist.
+          </li>
+
+          <li data-seq=''10.6''>
+           Der Veranstalter beabsichtigt, folgende Preise zur Verfügung zu stellen:
+          </li>
+
+          <p class=''web__default-text''><strong>GLOBAL LEAGUE</strong></p>
+
+          <li data-seq=''10.7''>
+            Alle Teilnehmer an F1 Fantasy werden automatisch in die F1 Fantasy Global League aufgenommen. Die Gewinner der Preise für die Teilnahme an der Global League werden anhand der Gesamtzahl der Punkte ermittelt, die während der FIA FORMUL 1 WELTMEISTERSCHAFT Saison 2021 (die <strong> „Saison“ </strong>) erzielt wurden. Der erstplatzierte Spieler (und Gesamtsieger der F1 Fantasy Global League) ist der Spieler, der nach Feststellung des Veranstalters die meisten Punkte in Bezug auf und nach Abschluss der Saison erzielt hat. Der zweitplatzierte Spieler ist der Spieler, der nach der Bestimmung des Veranstalters die zweitmeisten Punkte erzielt hat, und der drittplatzierte Spieler ist der Spieler, der nach der Bestimmung des Veranstalters die dritthöchsten Punkte erzielt hat. Für den Fall, dass ein Spieler nach Saisonende punktgleich ist, gilt der Spieler mit dem Turbo-Fahrer mit der höchsten Punktzahl in Bezug auf das letzte Rennen der Saison als höher platziert, um einen Preis zu vergeben. Bleiben die Spieler unentschieden (d.h. die relevanten Spieler haben denselben Turbo-Fahrer oder jeder Turbo-Fahrer hat die gleiche Anzahl von Punkten erzielt), wird der am höchsten platzierte Spieler durch zufällige Auslosung dieser Spieler zum Zwecke der Vergabe eines Preises bestimmt.
+          </li>
+
+          <li data-seq=''10.8''>
+           <strong> Erster Platz. </strong> Der erstplatzierte Spieler in der F1 Fantasy Global League erhält zwei (2) dreitägige Paddock Club-Tickets für einen Grand Prix nach Wahl des Gewinners, der 2022 stattfinden soll, mit Ausnahme des Grand Prix in Singapur, Australien, Zandvoort, Monaco und Abu Dhabi und alle anderen Grand Prix, die vom Veranstalter von Zeit zu Zeit festgelegt werden. In jedem der oben genannten Fälle müssen beide Tickets für denselben Grand Prix gelten und unterliegen der Verfügbarkeit. Falls der bevorzugte Grand Prix des Gewinners nicht verfügbar ist, wird der Gewinner nach seiner zweiten, dritten usw. Präferenz gefragt, bis ein Grand Prix mit Verfügbarkeit gefunden wurde.
+          </li>
+
+          <li data-seq=''10.9''>
+           <strong> Zweiter Platz. </strong> Der zweitplatzierte Spieler in der F1 Fantasy Global League erhält zwei (2) dreitägige Tribünenkarten (plus Zugang zum Fahrerlager) für einen Grand Prix nach Wahl des Gewinners, der 2022 stattfinden soll, mit Ausnahme des Grand Prix in Zandvoort, Monaco und Abu Dhabi und alle anderen Grand Prix, die vom Veranstalter von Zeit zu Zeit festgelegt werden. In jedem der oben genannten Fälle müssen beide Tickets für denselben Grand Prix gelten und unterliegen der Verfügbarkeit. Falls der bevorzugte Grand Prix des Gewinners nicht verfügbar ist, wird der Gewinner nach seiner zweiten, dritten usw. Präferenz gefragt, bis ein Grand Prix mit Verfügbarkeit gefunden wurde.
+          </li>
+
+          <li data-seq=''10.10''>
+            <strong> Dritter Platz. </strong> Der drittplatzierte Spieler in der F1 Fantasy Global League erhält ein einmaliges 12-Monats-Abonnement für F1 TV Pro, es sei denn, F1 TV Pro ist in dem Land, in dem er seinen gewöhnlichen Wohnsitz hat, ist nicht verfügbar. In diesem Fall erhalten sie ein einziges 12-monatiges Jahresabonnement für F1 TV Zugang
+          </li>
+
+          <p class=''web__default-text''><strong>MINI SAISON LIGEN</strong></p>
+
+          <li data-seq=''10.11''>
+	          Während der FIA Formel-1-Weltmeisterschaftssaison 2021 kann der Veranstalter von Zeit zu Zeit Minisaison-Ligen betreiben, die zu Beginn eines bestimmten Grand Prix beginnen und entweder nach Abschluss eines bestimmten Grand Prix oder am Ende der Saison (wobei nur Punkte gezählt werden, die während einer solchen Minisaison gesammelt wurden) (jeweils eine „Mini-Saison-Liga“).
+          </li>
+
+          <li data-seq=''10.12''>
+            Um berechtigt zu sein, einen Preis für eine Mini-Saison-Liga zu gewinnen, müssen die Spieler der entsprechenden Mini-Saison-Liga manuell beitreten, sobald dies offiziell unter https://fantasy.formula1.com/join angekündigt wurde, und in die entsprechende Liga eintreten Code für die Mini-Season League, der sie beitreten möchten. Die Mini-Saison-Ligen (mit zugehörigen Liga-Codes) werden von Zeit zu Zeit bekannt gegeben und während der gesamten FIA Formel-1-Weltmeisterschaftssaison 2021 betrieben. Diese Allgemeinen Geschäftsbedingungen werden mit Einzelheiten zum Zeitraum, den eine Mini-Saison-Liga abdeckt, und allen relevanten Preisen für diese Mini-Saison-Liga in der folgenden Tabelle aktualisiert.
+          </li>
+
+          <table class=''web__table''>
+            <tr>
+              <th>Mini-Saison-Liga</th>
+              <th>Liga-Zeitraum</th>
+              <th>Gewinnerpreis</th>
+            </tr>
+            <tr>
+              <td>TBC</td>
+              <td>TBC</td>
+              <td>TBC</td>
+            </tr>
+          </table>
+
+          <br>
+
+          <li>
+            10.13. Der Gewinner eines Preises für die Teilnahme an jeder Mini Saison Liga wird anhand der Gesamtzahl der Punkte ermittelt, die von denjenigen erzielt wurden, die in die entsprechende Mini Saison Liga eingetreten sind. Für die Vergabe eines Preises in Bezug auf jede Mini Saison Liga gilt Folgendes: (a) Der Gewinner jeder Mini Saison Liga ist der Spieler, der nach Feststellung des Veranstalters die meisten Punkte in Bezug auf und nach der Abschluss der jeweiligen Mini Saison Liga; und (b) Zweiter sind diejenigen Spieler, die nach Feststellung des Veranstalters die nächsthöhere Punktzahl in Bezug auf und nach Abschluss der jeweiligen Mini Saison Liga erreicht haben. Die Anzahl der Zweitplatzierten für jede Mini Saison Liga Wird durch die Anzahl der Preise bestimmt, die für eine solche Mini-Saison-Liga verfügbar sind, wie in 10.12 oben angegeben. Für den Fall, dass ein Spieler nach Abschluss der Mini Saison Liga punktgleich ist, gilt der Spieler mit dem Turbo Fahrer mit der höchsten Punktzahl in Bezug auf das letzte Rennen der Saison als höher platziert, um einen zu vergeben Preis. Bleiben die Spieler unentschieden (d.h. Die relevanten Spieler haben denselben Turbo Fahrer oder jeder Turbo Fahrer hat die gleiche Anzahl von Punkten erzielt), wird der am höchsten platzierte Spieler durch zufällige Auslosung dieser Spieler zum Zwecke der Vergabe eines Preises bestimmt.
+          </li>
+
+          <li>
+            10.14. Abhängig vom verfügbaren Preis für eine Mini-Season League können Gewinner gebeten werden, ihr bevorzugtes Formel-1-Team für den Zweck des Preises einzureichen. Falls für eine solche bevorzugte Mannschaft keine Verfügbarkeit besteht, wird der Spieler nach seiner zweiten, dritten usw. Präferenz gefragt, bis die Verfügbarkeit festgestellt wurde.
+          </li>
+        </ol>
+      "
+  notification:
+    header: 11. BENACHRICHTIGUNG
+    content:
+      "
+        <ol class=''list--ordered''>
+          <li data-seq=''11.1''>
+            Die Gewinner der Preise werden innerhalb von drei Monaten nach Ende der Saison per E-Mail benachrichtigt und geben jeweils Einzelheiten zur Beantragung ihres Preises an.
+          </li>
+
+          <li data-seq=''11.2''>
+            Wenn ein Gewinner nicht innerhalb von 14 Tagen nach Bekanntgabe seines Gewinns auf den Veranstalter antwortet, verfällt der Preis des Gewinners. Der Veranstalter behält sich das Recht vor, einen anderen Gewinner auszuwählen, um diesen verfallen Preis zu erhalten (und dieser Gewinner muss auch innerhalb von 14 Tagen auf die Benachrichtigung über seinen Gewinn antworten, sonst verfällt auch sein Preis).
+          </li>
+
+          <li data-seq=''11.3''>
+           Wenn ein Gewinner seinen Preis ablehnt oder der Beitrag ungültig ist oder gegen diese Bedingungen verstößt, verfällt der Preis des Gewinners und der Veranstalter ist berechtigt, einen anderen Gewinner auszuwählen.
+          </li>
+
+          <li data-seq=''11.4''>
+            Sobald die Gewinner der Preise gemäß diesen Allgemeinen Geschäftsbedingungen ermittelt wurden, kann der Nachweis erbracht werden, dass einem gültigen Gewinner ein Preis verliehen wurde, indem ein frankierter adressierter Umschlag an den Veranstalter gesendet wird, Adresse: F1 Fantasy, Nr. 2. St. James''s Market, London SW1Y 4AH, England.
+          </li>
+        </ol>
+      "
+  publicity:
+    header: 12. WERBUNG
+    content:
+      "
+        <ol class=''list--ordered''>
+          <li data-seq=''12.1''>
+            Sie erklären sich hiermit damit einverstanden, dass der Veranstalter und seine verbundenen Unternehmen Ihre Stimme, Standbilder und bewegten Bilder sowie Ihren Namen für Werbezwecke (in jedem Medium, einschließlich Standbildern und Filmen, und im Internet, einschließlich Websites, für unbegrenzte Zeit verwenden vom Veranstalter und seinen verbundenen Unternehmen gehostet) und in Werbe-, Marketing- oder Verkaufsförderungsmaterial ohne zusätzliche Entschädigung oder vorherige Ankündigung.
+          </li>
+
+          <li data-seq=''12.2''>
+            Einwohner eines US-Bundesstaates oder einer anderen Gerichtsbarkeit, in der es rechtswidrig ist, die Zustimmung zu einer unbefristeten Veröffentlichung als Voraussetzung für den Gewinn eines Preises zu verlangen, sind nicht an Absatz 12.1 gebunden, soweit dies rechtmäßig ist.
+          </li>
+
+          <li data-seq=''12.3''>
+           Die Gewinner müssen möglicherweise an Werbemaßnahmen im Zusammenhang mit F1 Fantasy teilnehmen, einschließlich der Veröffentlichung ihres Namens und Fotos in beliebigen Medien.
+          </li>
+
+          <li data-seq=''12.4''>
+            Der Veranstalter verwendet und kümmert sich um alle persönlichen Informationen, die Sie bei der Eingabe von F1 Fantasy angeben, wie in seiner Datenschutzrichtlinie beschrieben. Eine Kopie davon ist unter <a class = ''web__link'' target = ''f1'' href = ''verfügbar. https://formula1.com ''> Formel1.com </a> in Übereinstimmung mit den Datenschutzgesetzen und den geltenden Gesetzen. Durch die Eingabe von F1 Fantasy stimmen Sie der Erfassung, Speicherung, Verwendung und Verteilung Ihrer persönlichen Daten zu, um Sie bezüglich Ihres F1 Fantasy-Eintrags und für die in diesen Allgemeinen Geschäftsbedingungen beschriebenen Zwecke zu verarbeiten und zu kontaktieren.
+          </li>
+
+          <li data-seq=''12.5''>
+            Wenn Sie zugestimmt haben, Marketingmitteilungen von einer anderen Person als dem Veranstalter zu erhalten, werden Ihre Daten möglicherweise an die Person(en) und Organisation(en) weitergegeben, von denen Sie dem Erhalt von Marketingmitteilungen zugestimmt haben.
+          </li>
+        </ol>
+      "
+  breach:
+    header: 13. Verstoß
+    content:
+      "
+        <ol class=''list--ordered''>
+          <li data-seq=''13.1''>
+           Im Falle eines Verstoßes von Ihnen gegen diese Allgemeinen Geschäftsbedingungen oder die Spielregeln behält sich der Veranstalter das Recht vor, Sie vorübergehend oder dauerhaft von F1 Fantasy auszusetzen und/oder zu disqualifizieren.
+          </li>
+        </ol>
+      "
+  liability:
+    header: 14. HAFTUNG
+    content:
+      "
+        <ol class=''list--ordered''>
+          <li data-seq=''14.1''>
+            Nichts in diesen Allgemeinen Geschäftsbedingungen beschränkt oder schließt die Haftung des Veranstalters für (i) Tod oder Körperverletzung aus, die durch Fahrlässigkeit des Veranstalters verursacht wurden. (ii) Haftung aufgrund von Betrug oder betrügerischer Falschdarstellung; oder (iii) aus einem anderen Grund oder aus einem Grund, der gesetzlich nicht ausgeschlossen werden kann.
+          </li>
+
+          <li data-seq=''14.2''>
+           Der Veranstalter übernimmt keine Verantwortung für Schäden, Verluste, Verbindlichkeiten, Verletzungen oder Enttäuschungen, die Ihnen durch die Teilnahme an F1 Fantasy oder die Annahme des Preises entstehen oder entstehen. Der Veranstalter lehnt ferner jegliche Haftung für Verletzungen oder Schäden am Computer Ihres oder einer anderen Person ab, die sich aus der Teilnahme an oder dem Herunterladen von Materialien im Zusammenhang mit F1 Fantasy ergeben oder daraus resultieren.
+          </li>
+
+          <li data-seq=''14.3''>
+            Der Veranstalter haftet nicht für die Nichteinhaltung seiner Verpflichtungen in Bezug auf F1 Fantasy, wenn der Fehler durch etwas verursacht wird, das außerhalb seiner angemessenen Kontrolle liegt. Zu diesen Umständen gehören, ohne darauf beschränkt zu sein, Wetterbedingungen, Feuer, Überschwemmungen, Hurrikane, Streiks, Arbeitskämpfe, Kriege, Feindseligkeiten, politische Unruhen, Unruhen, Unruhen, unvermeidliche Unfälle, die Überwachung von Gesetzen oder sonstige Umstände, die höherer Gewalt gleichkommen .
+          </li>
+
+          <li data-seq=''14.4''>
+            Der Veranstalter übernimmt keine Garantie dafür, dass F1 Fantasy jederzeit verfügbar ist, und übernimmt keine Garantie für die Richtigkeit oder Vollständigkeit der Inhalte von F1 Fantasy.
+          </li>
+        </ol>
+      "
+  general:
+    header: 15. ALLGEMEINES
+    content:
+      "
+        <ol class=''list--ordered''>
+          <li data-seq=''15.1''>
+            Der Veranstalter behält sich das Recht vor, F1 Fantasy jederzeit und von Zeit zu Zeit mit oder ohne vorherige Ankündigung zu ändern, vorübergehend oder dauerhaft einzustellen (aus Gründen, die außerhalb seiner angemessenen Kontrolle liegen (einschließlich, ohne Einschränkung, im Falle von erwarteten, vermuteten oder tatsächlicher Betrug)). Für den Fall, dass der Veranstalter F1 Fantasy gemäß diesem Absatz endgültig einstellt, werden Sie von Ihren Verpflichtungen gegenüber dem Veranstalter gemäß diesen Geschäftsbedingungen befreit.
+          </li>
+
+          <li data-seq=''15.2''>
+            Es ist Ihnen verboten, bei der Benennung Ihres Teams eine unhöfliche oder obszöne Sprache zu verwenden. Es ist Ihnen auch untersagt, unhöfliche oder obszöne Bilder als Titelbild oder Avatar-Bild Ihrer Liga hochzuladen. Wenn Sie eine unhöfliche oder obszöne Sprache oder Bilder verwenden, werden Ihr Teamname und Ihre Rechte zum Hochladen von Bildern sofort widerrufen und Sie können vom Spiel ausgeschlossen werden. Die diesbezügliche Entscheidung des Veranstalters ist endgültig.
+          </li>
+
+          <li data-seq=''15.3''>
+            Wenn eine Bestimmung oder Teilbestimmung dieser Allgemeinen Geschäftsbedingungen ungültig, rechtswidrig oder nicht durchsetzbar ist oder wird, gilt sie als gelöscht, hat jedoch keinen Einfluss auf die Gültigkeit und Durchsetzbarkeit der übrigen Allgemeinen Geschäftsbedingungen.
+          </li>
+
+          <li data-seq=''15.4''>
+           F1 Fantasy und diese Allgemeinen Geschäftsbedingungen unterliegen englischem Recht und Teilnehmer an F1 Fantasy unterliegen der Gerichtsbarkeit der englischen Gerichte. Unabhängig davon haben Sie möglicherweise gesetzliche und/oder Verbraucherrechte an Ihrem Wohnort, die gelten, und unter bestimmten Umständen kann Ihr örtliches Recht gelten.
+          </li>
+        </ol>
+      "
+game-rules:
+  title: Spielregeln
+points-scoring:
+  title: Punktewertung
+privacy-policy:
+  title: Datenschutz-Bestimmungen
+what-is-new:
+  title: Was gibt''s Neues
+  new-features:
+    header: Neue Eigenschaften
+    content:
+      "
+        <p class=''web__default-text''>
+          Subs Bank
+        </p>
+
+        <ul>
+          <li class=''web__bullet-list''>
+            Die Subs Bank ermöglicht es Ihnen, bis zu 3 Auswechslungen kostenlos pro Rennwoche zu machen. Da sich die Preise aufgrund der dynamischen Preise ständig  ändern, können Sie Ihre Subs Bank verwenden, um Ihr Budget über 100 Mio. USD zu erhöhen.
+          </li>
+        </ul>
+      "
+  game-improvements:
+    header: Spielverbesserung
+    content:
+      "
+        <p class=''web__default-text''>
+         Dynamische Preise
+        </p>
+
+        <ul>
+          <li class=''web__bullet-list''>
+            Preise ändern sich kontinuierlich basierend auf der Leistung und den Benutzern, die Teamersetzungen vornehmen.
+          </li>
+        </ul>
+
+        <p class=''web__default-text''>Platzhalter</p>
+
+        <ul>
+          <li class=''web__bullet-list''>
+            Die Wildcard ermöglicht es Ihnen, bis zu 12 Auswechslungen kostenlos in der Rennwoche zu machen, die Sie spielen, so dass Sie ein volles Team zurücksetzen und zusätzliche Substitutionen machen können, um Ihr Budget zu vergrößern. Sie erhalten 2 Wildcards pro Saison.
+          </li>
+        </ul>
+      "
+team-marketing:
+  title: Team Marketing
+  notice: Wenn Sie keine Mitteilungen mehr direkt von Ihrem Lieblingsteam erhalten möchten, sollten Sie sich direkt an das Team wenden, um diese zu informieren. Die Datenschutzbestimmungen und Kontaktdaten der Teams sind unten aufgeführt.
+already-registered: Bereits registriert?
+want-to-know-more: Möchten Sie mehr wissen?
+find-out-more: Finde mehr heraus
+know-more: Mehr wissen
+scoring: Wertung
+how-to-play: Spielregeln

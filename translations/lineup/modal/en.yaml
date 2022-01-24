@@ -1,0 +1,6 @@
+information:
+  subs-bank:
+    message: The Subs Bank allows you to make up to {substitutions} substitutions to your team each raceweek before the team lock time. The first {freeSubstitutions} substitutions each raceweek are free, with additional substitutions incurring a penalty of -{cost}pts per substitution. Each time you save a team substitution your Subs Bank is reduced by one.
+
+  total-value:
+    message: Your Total Value is your Team Value plus your Remaining Budget. You can increase your Total Value by using your Subs Bank to add and remove drivers and constructors from your team.

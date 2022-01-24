@@ -1,0 +1,46 @@
+<NavigationDrawer::Menu @navigationDrawer={{@navigationDrawer}} @theme="formula-1" as | Menu |>
+  <Menu.Item>
+    <a href="https://f1tv.formula1.com/" target="formula-1" class="navigation-drawer__menu__item__action navigation-drawer__menu__item--f1-tv">
+      <Icon @icon="tv-retro:po" class="navigation-drawer__menu__item__icon" />
+      <Logo @kind="formula-1" @name="tv" class="navigation-drawer__menu__item__logo" />
+    </a>
+  </Menu.Item>
+
+  <Menu.Item @label={{t "navigation.authentics"}} @icon="helmet:po" as | Item |>
+    <Item.Link href="https://www.f1authentics.com/" target="formula-1" />
+  </Menu.Item>
+
+  <Menu.Item @label={{t "navigation.store"}} @icon="tshirt:fa:far" as | Item |>
+    <Item.Link href="https://f1store2.formula1.com/en/?_s=bm-fi-f1-prtsite-topnav-230720-jm" target="formula-1" />
+  </Menu.Item>
+
+  <Menu.Item @label={{t "navigation.tickets"}} @icon="ticket-alt:fa:far" as | Item |>
+    <Item.Link href="https://tickets.formula1.com/en" target="formula-1" />
+  </Menu.Item>
+
+  <Menu.Item @label={{t "navigation.hospitality"}} @icon="concierge-bell:fa:far" as | Item |>
+    <Item.Link href="https://tickets.formula1.com/en/h-formula1-hospitality" target="formula-1" />
+  </Menu.Item>
+
+  <Menu.Item @label={{t "navigation.experiences"}} @icon="star:fa:far" as | Item |>
+    <Item.Link href="https://f1experiences.com/calendar-of-events" target="formula-1" />
+  </Menu.Item>
+
+  <Menu.LineDivider />
+
+  <Menu.Item>
+    <ul class="navigation-drawer__menu__item__formulas">
+      <li class="navigation-drawer__menu__item__formulas__link">
+        <a href="https://www.formula1.com/" target="formula-1">F1<sup>®</sup></a>
+      </li>
+
+      <li class="navigation-drawer__menu__item__formulas__link">
+        <a href="http://www.fiaformula2.com/" target="formula-2">F2<sup class="tm">TM</sup></a>
+      </li>
+
+      <li class="navigation-drawer__menu__item__formulas__link">
+        <a href="http://www.fiaformula3.com/" target="formula-3">F3<sup class="tm">TM</sup></a>
+      </li>
+    </ul>
+  </Menu.Item>
+</NavigationDrawer::Menu>

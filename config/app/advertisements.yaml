@@ -1,0 +1,27 @@
+slots:
+  application: fantasy_app
+  index: fantasy_homepage
+  league.create: fantasy_create-league
+  league.show: fantasy_league-single-view
+  leagues.joined: fantasy_league-joined
+  leagues: fantasy_league-lobby
+  summary: fantasy_summary
+  teams: fantasy_my-teams
+  team.create: fantasy_create-team
+  team.show: fantasy_team-single-view
+  web.game-rules: fantasy_game-rules
+  web.points-scoring: fantasy_points-scoring
+  web: fantasy_web
+
+mapping:
+  application:
+    - viewport: [1920, 600]
+      sizes: [[300,600], [160,600], [120,600], [300,250]]
+    - viewport: [1200, 1000]
+      sizes: [[970,250], [728,90]]
+    - viewport: [768, 480]
+      sizes: [[728,90]]
+    - viewport: [468, 0]
+      sizes: [[468, 60], [320,50]]
+    - viewport: [0, 0]
+      sizes: [[320,50]]

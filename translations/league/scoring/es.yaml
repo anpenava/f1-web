@@ -1,0 +1,109 @@
+qualifying:
+  title: Clasificación
+  events:
+    1:
+      name: Q1 Clasificado
+    2:
+      name: Q2 Clasificado
+    3:
+      name: Q3 Clasificado
+    4:
+      name: Clasificado adelante del compañero de equipo (solo piloto)
+    5:
+      name: No clasificó (solo piloto)
+    6:
+      name: Descalificación de la clasificación (solo piloto)
+qualifying-position-bonuses:
+  title: Bonos de posición en la clasificación
+  events:
+    1:
+      name: Primer lugar
+    2:
+      name: 2do lugar
+    3:
+      name: 3er lugar
+    4:
+      name: 4to lugar
+    5:
+      name: 5to lugar
+    6:
+      name: 6to lugar
+    7:
+      name: 7mo lugar
+    8:
+      name: 8vo lugar
+    9:
+      name: 9no lugar
+    10:
+      name: 10mo lugar
+race:
+  title: Carrera
+  events:
+    1:
+      name: Carrera terminada
+    2:
+      name: Carrera terminada, posición ganada (ganada por lugar, máx. +10 pts)
+    3:
+      name: Termina adelante del compañero de equipo (solo piloto)
+    4:
+      name: Vuelta más rápida (solo piloto)
+    5:
+      name: Carrera iniciada dentro del Top 10, carrera terminada pero con posición perdida (lugar perdido, máx. -10 pts)
+    6:
+      name: Carrera iniciada fuera del Top 10, carrera terminada pero con posición perdida (lugar perdido, máx. -5 pts)
+    7:
+      name: No clasificado (solo piloto)
+    8:
+      name: Descalificado de la carrera (solo piloto)
+  note:
+    "
+      <p>
+        <strong>* Posiciones obtenidas:</strong> Las posiciones ganadas se basan en la posición con la que un piloto inicia la tabla
+      </p>
+
+      <p>
+        <strong>** Clasificación: </strong>
+        Los coches que hayan cubierto el 90% del número de vueltas cubiertas por el ganador (redondeado a la casi totalidad de las vueltas) se considerarán como coches que han terminado la carrera. Los coches que hayan cubierto menos del 90% del número de vueltas cubiertas por el ganandor (redondeado a la casi totalidad de las vueltas), no clasificarán. Las clasificaciones se basan en las decisiones de la FIA
+      </p>
+    "
+finishing-position-bonuses:
+  title: Bonos de finalización de posición
+  events:
+    1:
+      name: 1er lugar
+    2:
+      name: 2do lugar
+    3:
+      name: 3er lugar
+    4:
+      name: 4to lugar
+    5:
+      name: 5to lugar
+    6:
+      name: 6to lugar
+    7:
+      name: 7mo lugar
+    8:
+      name: 8vo lugar
+    9:
+      name: 9no lugar
+    10:
+      name: 10mo lugar
+streaks:
+  title: Rachas
+  events:
+    1:
+      name: Clasificación del piloto - el piloto clasifica en el Top 10 durante 5 carreras consecutivas
+    2:
+      name: Carrera del piloto - el piloto termina la carrera en el Top 10 durante 5 carreras consecutivas
+    3:
+      name: Clasificación del constructor - ambos pilotos clasifican en el Top 10 durante 3 carreras consecutivas
+    4:
+      name: Carrera del constructor - ambos pilotos terminan la carrera en el Top 10 durante 3 carreras consecutivas
+  note:
+    "
+      <p>
+        * Cuando un piloto o construtor logra una racha, esa racha se reinicia y debe acumularse de nuevo.
+        Por ejemplo: Un piloto logra cinco top diez consecutivos. Ese piloto es recompensado con una racha, pero debe lograr otros cinco top diez consecutivos para obtener puntos de racha una segunda vez.
+      <p>
+    "

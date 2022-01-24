@@ -1,0 +1,47 @@
+<ScrollViewAnimated @transitions={{this.scrollTransitions}}>
+  <div class="web web__what-is-new web__stick-top">
+    <BoldHeading @tag="h1" @title={{t "web.what-is-new.title"}} @modifier="web main" />
+  </div>
+
+  <div class="web web__page web__page--what-is-new">
+    <Container @modifier="md-boxed">
+      <Row>
+        <Column @modifier="12 xs-2">
+          <div class="web__date-box">
+            <div class="web__date-box--month">Jan</div>
+            <div class="web__date-box--day">25</div>
+            <div class="web__date-box--year">2021</div>
+          </div>
+        </Column>
+
+        <Column @modifier="12 xs-10">
+          <BoldHeading @tagName="h6" @modifier="page">
+            {{t "web.what-is-new.new-features.header"}}
+          </BoldHeading>
+
+          {{t "web.what-is-new.new-features.content" htmlSafe=true}}
+        </Column>
+      </Row>
+
+      <Row>
+        <Column @modifier="12 xs-2">
+          <div class="web__date-box">
+            <div class="web__date-box--month">Jan</div>
+            <div class="web__date-box--day">25</div>
+            <div class="web__date-box--year">2021</div>
+          </div>
+        </Column>
+
+        <Column @modifier="12 xs-10">
+          <BoldHeading @tagName="h6" @modifier="page">
+            {{t "web.what-is-new.game-improvements.header"}}
+          </BoldHeading>
+
+          {{t "web.what-is-new.game-improvements.content" htmlSafe=true}}
+        </Column>
+      </Row>
+    </Container>
+  </div>
+
+  <WebFooter />
+</ScrollViewAnimated>

@@ -1,0 +1,6 @@
+information:
+  subs-bank:
+    message: La Subs Bank ti consente di effettuare fino a {substitutions} sostituzioni alla tua squadra ognisettimana di gara prima del tempo di blocco della squadra. Le prime {freeSubstitutions} sostituzioni di ogni settimana di gara sono gratuite, con sostituzioni aggiuntive che comportano una penalità di -{cost} punti per sostituzione. Ogni volta che si salva una sostituzione di squadra, la Subs Bank viene ridotta di uno.
+
+  total-value:
+    message: Il tuo valore totale è il valore della tua squadra più il budget rimanente. Puoi aumentare il tuo valore totale utilizzando la tua Subs Bank per aggiungere e rimuovere conducenti e costruttori dalla tua squadra.

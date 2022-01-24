@@ -1,0 +1,23 @@
+mega-player-boosters-played:
+  title: Mega Drivers Played
+
+team-of-the-week-with-mega-player-booster:
+  title:
+    gameweek: Equipo de la semana con Mega Piloto
+    season: Equipo de la temporada con Mega Piloto
+team-of-the-week-without-mega-player-booster:
+  title:
+    gameweek: Equipo de la semana sin Mega Piloto
+    season: Equipo de la temporada sin Mega Piloto
+
+top-boosted:
+  title: Most Turbo Driver Plays
+
+top-mega-boosted:
+  title: Most Mega Driver Plays
+
+top-qualifying-streaks-by-position:
+  title: Top Qualifying Streak
+
+top-race-streaks-by-position:
+  title: Top Race Streak

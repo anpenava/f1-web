@@ -1,0 +1,80 @@
+mega:
+  abbr: MD
+  name: Mega Driver
+  rule: "Qualsiasi driver eccetto {turboName} può essere {name}, senza restrizioni di costo"
+  description:
+    "
+      <p>
+        {name} è un nuovo booster che moltiplica i punti segnati dal driver selezionato per 3x.
+        Hai due giocate {name} per stagione - una nella prima metà della stagione fino alla pausa estiva e una dopo la pausa per la seconda metà della stagione. Se non utilizzi la tua prima giocata Mega Driver prima della pausa estiva, non verrà portata avanti dopo la pausa. Una volta che le tue giocate Mega Driver sono state usate, non puoi usarle di nuovo per il resto della stagione.
+      </p>
+
+      {use, select,
+        firstUsed { <p>Hai già giocato il tuo primo {name} della stagione - il tuo secondo {name} gioco diventerà attivo una volta iniziata la pausa estiva.</p> }
+        secondAvailable { <p>La tua seconda {name} giocata è ora attiva.</p> }
+        secondUsed { <p>Hai già giocato entrambi i tuoi {name} per questa stagione.</p> }
+        other { }
+      }
+    "
+  not-eligible:
+    empty: "Devi prima selezionare un driver"
+    position: "I costruttori non sono ammessi"
+    threshold: "Non è possibile selezionare i driver sopra ${amount}m"
+
+turbo:
+  abbr: TD
+  demoted:
+    description: "Il tuo precedente selezionato {name} ha un prezzo superiore a ${amount}m nella nuova settimana di gioco. In quanto tale, il tuo {name} è stato riassegnato al successivo driver con il prezzo più alto sotto ${amount}m."
+  name: Turbo Driver
+  not-eligible:
+    empty: "Devi prima selezionare un driver"
+    position: "I costruttori non sono ammessi"
+    threshold: "Non è possibile selezionare i driver sopra ${amount}m"
+
+wildcard:
+  description:
+    "
+    <p>
+      La Wildcard ti permette di fare <strong>modifiche illimitate</strong> alla tua squadra senza penalità.
+    </p>
+
+    <p>
+      Hai due giochi con Wildcard nella stagione 2020 - una fino a Mugello (nona gara) e una dopo.
+    </p>
+    "
+
+  more:
+    inactive:
+      "
+      <p>
+        La Wildcard diventa attiva dalla settimana di gara 2 in poi.
+      </p>
+      "
+
+    new-lineup:
+      "
+      <p>
+        La Wildcard non si attiva finchè la tua squadra non ha giocato la prima settimana di gara.
+      </p>
+      "
+
+    used-1:
+      "
+      <p>
+        Hai già giocato la tua prima Wildcard della stagione - la tua seconda Wildcard diventerà attiva una volta iniziata la pausa estiva .
+      </p>
+      "
+
+    active:
+      "
+      <p>
+        Il tuo secondo gioco con la Wildcard è attivo ora.
+      </p>
+      "
+
+    used-2:
+      "
+      <p>
+        Tu hai già giocato entrambe le Wildcards per questa stagione.
+      </p>
+      "

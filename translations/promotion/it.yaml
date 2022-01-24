@@ -1,0 +1,30 @@
+promotion-1:
+  heading: Invita un amico
+
+  entered:
+    call-to-action: Chiuso
+    message: "
+      Tu hai ora {entries}/5 partecipazioni all''estrazione a premi.
+    "
+    title: Qualcuno si è unito al tuo campionato Invita un Amico
+
+  not-entered:
+    call-to-action: Crea un Campionato privato
+    message: "
+      <p>
+        Crea un Campionato privato da Bahrain - Abu Dhabi.
+        Invita 5 amici che sono nuovi a F1 Fantasy e ottieni
+        una partecipazione all''estrazione a premi per ogni nuovo utente - max 5 iscrizioni a persona.
+      </p>
+    "
+    title: Vinci un cappellino di Lewis Hamilton autografato!
+
+promotion-middle-east-league:
+  heading: Campionato Medio Oriente
+
+  not-entered:
+    call-to-action: Iscriviti adesso
+    message: "<p>Unisciti al Campionato del Medio Oriente.</p>"
+    title: Vinci un cappellino di Kimi Räikkönen autografato!
+
+agreement: Termini e Condizioni

@@ -1,0 +1,5 @@
+action:
+  change-team: Cambiar constructor
+
+message:
+  guest: Juega contra tus amigos para ver quién sabe más sobre la F1®. Elije tu equipo de 5 pilotos y 1 constructor, manteniéndote debajo del presupuesto de $100m.

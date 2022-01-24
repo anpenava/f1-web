@@ -1,0 +1,80 @@
+mega:
+  abbr: MF
+  name: Mega Fahrer
+  rule: "Jeder Fahrer außer {turboName} kann {name} sein, ohne Kostenbeschränkung"
+  description:
+    "
+      <p>
+        {name} ist ein neuer Booster, der die vom ausgewählten Fahrer erzielten Punkte mit 3x multipliziert.
+        Sie erhalten zwei {name} Spiele pro Saison – eines in der ersten Saisonhälfte bis zur Sommerpause und eines nach der Pause für die zweite Saisonhälfte. Wenn Sie Ihr erstes Mega-Fahrer-Spiel vor der Sommerpause nicht verwenden, wird es nach der Pause nicht weitergetragen.  Sobald Ihre Mega-Fahrer-Spiele verwendet werden, können Sie sie für den Rest der Saison nicht mehr verwenden.
+      </p>
+
+      {use, select,
+        firstUsed { <p>Sie haben bereits Ihren ersten {name} der Saison gespielt - Ihr zweites {name} Spiel wird aktiv, sobald die Sommerpause beginnt.</p> }
+        secondAvailable { <p>Ihr zweites {name} Spiel ist jetzt aktiv.</p> }
+        secondUsed { <p>Sie haben bereits beide ihrer {name} für diese Saison gespielt.</p> }
+        other { }
+      }
+    "
+  not-eligible:
+    empty: "Sie müssen zuerst einen Fahrer auswählen"
+    position: "Konstruktoren sind nicht förderfähig"
+    threshold: "Treiber können nicht ausgewählt werden ${amount}m"
+
+turbo:
+  abbr: TF
+  demoted:
+    description: "Ihr zuvor ausgewählter {name} hat in der neuen Rennwoche einen Preis über ${amount}m. Daher wurde Ihr {name} dem Fahrer mit dem nächsthöheren Preis unter ${amount}m zugewiesen."
+  name: Turbo Fahrer
+  not-eligible:
+    empty: "Sie müssen zuerst einen Fahrer auswählen"
+    position: "Konstruktoren sind nicht berechtigt"
+    threshold: "Fahrer über ${amount}m können nicht gewählt werden"
+
+wildcard:
+  description:
+    "
+    <p>
+      Diese Wildcard berechtigt Sie <strong>unlimited changes</strong> für Ihr Team ohne Strafe vorzunehmen.
+    </p>
+
+    <p>
+      Sie haben zwei Wildcards in Saison 2020 - eins bis nach Mugello (9. Rennen) und eins danach.
+    </p>
+    "
+
+  more:
+    inactive:
+      "
+      <p>
+        Die Wildcards wird ab Rennwoche 2 aktiv.
+      </p>
+      "
+
+    new-lineup:
+      "
+      <p>
+        Wildcard wird erst aktiv, wenn Ihr Team seine erste Rennwoche gespielt hat.
+      </p>
+      "
+
+    used-1:
+      "
+      <p>
+        Sie haben bereits Ihre erste Wildcard der Saison gespielt - Ihre zweite Wildcard wird aktiv, sobald die Sommerpause beginnt.
+      </p>
+      "
+
+    active:
+      "
+      <p>
+        Ihr zweites Wildcard-Spiel ist jetzt aktiv.
+      </p>
+      "
+
+    used-2:
+      "
+      <p>
+        Sie haben bereits beide Wildcards für diese Saison gespielt.
+      </p>
+      "
