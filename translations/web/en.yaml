@@ -27,6 +27,8 @@ homepage:
     title: Subs Bank
     text: "Make up to 3 substitutions for free each <br class=''web__break''>raceweek."
   what-is: What is daily fantasy?
+  label:
+    new: New
 leagues:
   title: Leagues
   create-your-league: Create your League
@@ -187,7 +189,7 @@ faq:
         </p>
 
         <p class=''web__default-text web__gray-text''>
-          Mega Driver is a booster that multiplies the points scored by the selected driver by 3x. Mega Driver can be applied to any driver except your Turbo Driver, there is no price restriction on your Mega Driver. You have two Mega Driver plays per season - one for the European races (first 8 races) and one after.
+          Mega Driver is a booster that multiplies the points scored by the selected driver by 3x. Mega Driver can be applied to any driver except your Turbo Driver, there is no price restriction on your Mega Driver. You get two Mega Driver plays per season – one in the first half of the season up to the summer break at Hungary and one after the summer break from Belgium onwards for the second half of the season. Each Mega Driver play is valid for one raceweek and is automatically removed from your team after it has been played.
         </p>
 
         <p class=''web__default-text''>
@@ -195,7 +197,7 @@ faq:
         </p>
 
         <p class=''web__default-text web__gray-text''>
-          The Wildcard allows you to make unlimited changes to your team without penalty. You have two Wildcard plays per season - one for the European races (first 8 races) and one after.
+          The Wildcard allows you to make up to 12 substitutions for free in the raceweek you play it, enabling you to make a full team reset and to make additional substitutions to grow your budget. You get two Wildcard plays per season - one in the first half of the season up to the summer break at Hungary and one after the summer break from Belgium onwards for the second half of the season.
         </p>
       "
   leagues:

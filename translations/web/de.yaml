@@ -27,6 +27,8 @@ homepage:
     title: Subs Bank
     text: "Machen Sie bis zu 3 Auswechslungen für <br class=''web__break''>kostenlos jede Rennwoche."
   what-is: Was ist Ihre tägliche Fantasy
+  label:
+    new: Neu
 leagues:
   title: Ligen
   create-your-league: Erstelle Sie Ihre Liga

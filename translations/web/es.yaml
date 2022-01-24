@@ -189,7 +189,10 @@ faq:
         </p>
 
         <p class=''web__default-text web__gray-text''>
-          El piloto Mega es un refuerzo que multiplica por 3x los puntos ganados por el piloto seleccionado. El piloto Mega puede aplicarse a cualquier piloto excepto a tu piloto Turbo, no hay restricciones de precio para tu piloto Mega. Tienes dos juegos con el piloto Mega por temporada - uno para las carreras europeas (primeras 8 carreras) y uno para después.
+          El Mega Piloto es un refuerzo que multiplica por 3x los puntos ganados por el piloto seleccionado.
+          El Mega Piloto puede aplicarse a cualquier piloto excepto a tu Turbo Piloto, no hay restricciones de precio para tu Mega Piloto.
+          Tienes dos Mega Pilotos por temporada, uno en la primera mitad de la temporada hasta el descanso de verano en Hungría y otro para después del descanso de verano desde Bélgica en adelante para la segunda mitad de la temporada.
+          Cada Mega Piloto es válido solo para la carrera en la que lo usas y será eliminado automáticamente de tu equipo una vez acabada la carrera.
         </p>
 
         <p class=''web__default-text''>
@@ -197,7 +200,8 @@ faq:
         </p>
 
         <p class=''web__default-text web__gray-text''>
-          El comodín te permite hacer cambios ilimitados en tu equipo sin penalización. Tienes dos juegos comodín por temporada - uno para las carreras europeas (primeras 8 carreras) y uno para después.
+          El Comodín te permite hacer hasta 12 sustituciones gratuitamente en la carrera que es utilizado.
+          Tienes dos Comodines por temporada, uno en la primera mitad de la temporada hasta el descanso de verano en Hungría y otro para después del descanso de verano desde Bélgica en adelante para la segunda mitad de la temporada.
         </p>
       "
   leagues:

@@ -1,5 +1,29 @@
 aside:
   title: Announcement
-button: View More
-message: "<p>Fantasy points awarded for Qualifying, Sprint Qualifying and Race, with Team Lock at the start of Qualifying.</p>"
-title: Sprint Qualifying Points Structure
+button: Close
+message: "
+<p>
+  F1 Fantasy race points for Belgium are being awarded as 50% of the standard total.
+  Driver race streak events for Belgium are being awarded as 90% of the standard total
+  (100% for 4/5 races and 50% for the 5th race). Qualifying events and streaks for Belgium
+  remain at 100% of the standard total. Race points and streak events for future races will
+  revert to being 100% of the standard total.
+</p>
+
+<div>
+<div style=\"float: left; margin-right: 10px;\" class=\"insignia  insignia--bordered insignia--circle insignia--xl  insignia--theme-mega insignia--themed\">
+           <span class=\"insignia__label\">
+  MD
+  </span>
+  </div>
+<p>
+  Due to Belgium race points being awarded as 50%, all Mega Driver plays for Belgium have been
+  cancelled and reinstated to teams so they can be played at another race this season.
+</p>
+</div>
+
+<p class=\"text--center\">
+  An update has also been made to the <a href=\"game-rules\" target=\"game-rules\" class=\"text--dark text--bold\">Game Rules</a> to account for future unforeseen circumstances.
+</p>
+"
+title: "Belgium Points<br>Scoring Update"
